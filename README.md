@@ -47,8 +47,8 @@ Injected inside X's sidebar, local browsing history records only posts, videos, 
 - X 更新可能改变混淆目标；目标不匹配时 XTQ 保留 X 原行为。<br>
   X updates may change obfuscated targets; when a target does not match, XTQ preserves X's original behavior.
 
-## 支持 XTQ<br>Support XTQ
+## ⭐ 支持 XTQ ⭐<br>⭐ Support XTQ ⭐
 
-如果你觉得 XTQ 对你确实有帮助，欢迎考虑给项目点一个 [Star](https://github.com/Xposed-Modules-Repo/com.tianqianguai.xtq)。每一颗 Star 都是在确认这份工作有价值，也会给我们继续适配新的 X 版本、修复兼容性问题的动力。感谢你的支持！
+如果你觉得 XTQ 对你确实有帮助，欢迎考虑给项目点一个 [Star](https://github.com/Xposed-Modules-Repo/com.tianqianguai.xtq)。每一颗 Star 都让我知道这份工作有价值，也激励我继续适配新的 X 版本、修复兼容性问题。感谢你的支持！⭐
 
-If XTQ is genuinely useful to you, please consider giving the project a [Star](https://github.com/Xposed-Modules-Repo/com.tianqianguai.xtq). Each Star confirms that this work is valuable and encourages us to keep adapting to new X versions and fixing compatibility issues. Thank you for your support!
+If XTQ is genuinely useful to you, please consider giving the project a [Star](https://github.com/Xposed-Modules-Repo/com.tianqianguai.xtq). Each Star tells me that this work is valuable and motivates me to keep adapting to new X versions and fixing compatibility issues. Thank you for your support! ⭐
