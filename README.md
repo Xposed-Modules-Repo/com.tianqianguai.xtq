@@ -1,5 +1,7 @@
 # XTQ
 
+[![Telegram](https://img.shields.io/badge/Telegram-XTQ__Offical-26A5E4?logo=telegram&logoColor=white)](https://t.me/XTQ_Offical)
+
 XTQ 是面向 X Android 客户端的 Modern LSPosed 增强模块，作用域仅为 `com.twitter.android`。
 XTQ is a Modern LSPosed enhancement module for the X Android client, scoped only to `com.twitter.android`.
 
