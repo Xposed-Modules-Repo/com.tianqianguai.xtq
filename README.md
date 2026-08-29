@@ -2,7 +2,7 @@
 
 XTQ 是面向 X Android 客户端的 Modern LSPosed 增强模块，作用域仅为 `com.twitter.android`。
 
-当前公开版本：`0.0.1`（versionCode 19）  
+当前公开版本：`0.0.1`（versionCode 19）
 主要适配：X `12.20.5-prod.01`，并保留 X `12.19.1-release.0` 的精确目标。
 
 ## 功能
