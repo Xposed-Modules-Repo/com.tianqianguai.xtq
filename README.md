@@ -47,6 +47,7 @@ Primary compatibility: X `12.20.5-prod.01`, while retaining the exact target for
 
 ## 兼容性
 
+- 静态 scope：仅 `com.twitter.android`。
 - X `12.20.5-prod.01`：模块、链接、媒体、过滤、敏感媒体、高质量视频与浏览历史 Hook 已在设备回归中加载。
 - X `12.19.1-release.0`：保留已验证的精确目标。
 - X `12.20.5-prod.01` 的 `poll.results` 仍可能显示 `FAIL`，属于后续适配项；其他 Hook 组保持独立运行。
@@ -54,6 +55,7 @@ Primary compatibility: X `12.20.5-prod.01`, while retaining the exact target for
 
 ## Compatibility
 
+- Static scope: `com.twitter.android` only.
 - On X `12.20.5-prod.01`, the module, link, media, filtering, sensitive-media, high-quality-video, and browsing-history hooks have loaded in device regression.
 - X `12.19.1-release.0`: its verified exact target is retained.
 - `poll.results` on X `12.20.5-prod.01` may still show `FAIL` and remains a follow-up compatibility item; other Hook groups continue to run independently.
