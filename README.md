@@ -55,11 +55,11 @@ Primary verified compatibility: X `12.23.1-prod.01` (versionCode `312231001`).
 ## 兼容性
 
 - 静态 scope：仅 `com.twitter.android`。
-- X `12.23.1-prod.01`（versionCode `312231001`）：XTQ26 的链接、媒体、过滤、敏感媒体、高质量视频、浏览历史、翻译、设置与视频行为已在设备回归中验证。
+- X `12.23.1-prod.01`（`312231001`）：XTQ26 已在此版本完成实机安装与 Hook 组加载验证。
 - X 更新可能改变内部适配目标；目标不匹配时 XTQ 保留 X 原行为。
 
 ## Compatibility
 
 - Static scope: `com.twitter.android` only.
-- On X `12.23.1-prod.01` (versionCode `312231001`), XTQ26's link, media, filtering, sensitive-media, high-quality-video, browsing-history, translation, settings, and video-behavior changes were verified on device.
+- X `12.23.1-prod.01` (`312231001`): XTQ26 completed on-device installation and Hook-group loading verification on this version.
 - X updates may change internal compatibility targets; when a target does not match, XTQ preserves X's original behavior.

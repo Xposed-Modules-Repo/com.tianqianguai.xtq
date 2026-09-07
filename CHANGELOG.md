@@ -48,7 +48,18 @@
 
 ## 0.0.1
 
+### 中文
+
 - 首个官方公开版本。
 - 支持链接净化、媒体操作与下载、内容过滤和媒体显示增强。
 - 支持 X 内本地浏览历史与独立 Hook 诊断。
-- 适配 X 12.20.5 与 12.19.1 的已验证目标；12.20.5 的投票结果增强仍待继续适配。
+- 适配 X 12.20.5 与 12.19.1 的已验证目标。
+- X 12.20.5 的投票结果增强仍待继续适配。
+
+### English
+
+- First official public release.
+- Supports link cleanup, media actions and downloads, content filtering, and media display enhancements.
+- Includes local browsing history inside X and independent Hook diagnostics.
+- Adapts the verified targets for X 12.20.5 and X 12.19.1.
+- The poll-result enhancement for X 12.20.5 remained to be adapted.
