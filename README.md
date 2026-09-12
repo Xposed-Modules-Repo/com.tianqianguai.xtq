@@ -20,13 +20,21 @@
   If XTQ helps you, please consider leaving a Star. Every Star is meaningful encouragement.
 </p>
 
-当前公开版本：`12.23.1-prod.01`（versionCode 26）。
+当前公开版本：`12.25.0-prod.01`（versionCode 36）。
 
-Current public release: `12.23.1-prod.01` (versionCode 26).
+Current public release: `12.25.0-prod.01` (versionCode 36).
 
-主要适配并已验证：X `12.23.1-prod.01`（versionCode `312231001`）。
+主要适配并已验证：X `12.25.0-prod.01`（versionCode `312250001`）。
 
-Primary verified compatibility: X `12.23.1-prod.01` (versionCode `312231001`).
+Primary verified compatibility: X `12.25.0-prod.01` (versionCode `312250001`).
+
+本次修复回复自动翻译和原文保留、退出图片查看页后的按钮残留，以及视频打开或翻页时的误下载；保留已有功能与设置默认值。
+
+This update fixes automatic reply translation and original-text preservation, lingering image-save controls after leaving the viewer, and unintended downloads when opening or changing videos. Existing features and setting defaults are preserved.
+
+每次 X 更新后，我都需要重新分析适配变化、构建候选并逐项实机验证。如果这些工作对你有帮助，欢迎给项目一个 Star。每一颗 Star 都是对我的鼓励。
+
+After each X update, I work through compatibility changes, build candidates, and test features on a real device. If this helps you, please consider starring the project. Every Star is meaningful encouragement.
 
 ## 功能
 
@@ -38,7 +46,7 @@ Primary verified compatibility: X `12.23.1-prod.01` (versionCode `312231001`).
 - **视频播放控制**：可选关闭视频播放结束后自动进入下一个视频；该选项与帖子内横向轮播独立，仍可手动切换，默认关闭。
 - **媒体显示选项**：提供敏感媒体显示和高质量视频选项。
 - **设置与反馈**：设置按类别分组并支持展开或收起，调整会自动保存并显示保存反馈；浏览历史入口随 X 语言本地化。
-- **独立 Hook 组**：各 Hook 组独立失败并保持 fail-open，不阻止 X 原行为。
+- **兼容性回退**：遇到不匹配的适配目标时，保留 X 原生行为。
 
 ## Features
 
@@ -50,16 +58,18 @@ Primary verified compatibility: X `12.23.1-prod.01` (versionCode `312231001`).
 - **Video playback control**: Optionally stops automatic movement to the next video after playback; this is independent of the in-post horizontal carousel, and videos remain switchable manually. It is off by default.
 - **Media display options**: Provides sensitive-media display and high-quality video options.
 - **Settings and feedback**: Groups settings into collapsible categories, saves changes automatically with save feedback, and localizes the browsing-history entry to X's language.
-- **Independent Hook groups**: Hook groups fail independently and remain fail-open, so they do not block X's original behavior.
+- **Compatibility fallback**: Preserves X's native behavior when a compatibility target does not match.
 
 ## 兼容性
 
 - 静态 scope：仅 `com.twitter.android`。
-- X `12.23.1-prod.01`（`312231001`）：XTQ26 已在此版本完成实机安装与 Hook 组加载验证。
+- X `12.25.0-prod.01`（`312250001`）：XTQ36 已完成实机安装、Hook 组加载，以及回复双语、原图保存、图片返回和视频手动下载/翻页验证。
+- 本次未重新验证其他 X 版本；旧版验证记录请参阅历史 Release。
 - X 更新可能改变内部适配目标；目标不匹配时 XTQ 保留 X 原行为。
 
 ## Compatibility
 
 - Static scope: `com.twitter.android` only.
-- X `12.23.1-prod.01` (`312231001`): XTQ26 completed on-device installation and Hook-group loading verification on this version.
+- X `12.25.0-prod.01` (`312250001`): XTQ36 passed on-device installation, Hook-group loading, bilingual replies, original-image saving, viewer exit, and manual video download/page-change checks.
+- Other X versions were not retested for this release; earlier verification is documented in previous releases.
 - X updates may change internal compatibility targets; when a target does not match, XTQ preserves X's original behavior.

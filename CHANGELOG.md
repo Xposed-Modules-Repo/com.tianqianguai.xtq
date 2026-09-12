@@ -1,5 +1,27 @@
 # Changelog
 
+## 12.25.0-prod.01（versionCode 36）
+
+### 中文
+
+- 保留浏览历史、链接净化、原图与媒体下载、内容过滤、翻译和视频播放控制等已有功能，设置默认值保持不变。
+- 适配 X `12.25.0-prod.01`（`312250001`）。
+- 修复部分回复未自动翻译或只显示译文的问题，自动翻译完成后同时保留原文。
+- 修复退出图片查看页后“保存原图”按钮残留的问题，覆盖系统返回、工具栏返回与边缘返回。
+- 修复打开视频或翻页时误触发下载的问题；用户明确下载后只生成对应文件，后续翻页不追加下载。
+- 实机验证回复双语、原图保存、图片返回和视频下载；本次未重新验证其他 X 版本。
+- 本次没有新增用户可见功能移除。
+
+### English
+
+- Preserves browsing history, link cleanup, original-image and media downloads, filtering, translation, and video playback controls, with unchanged setting defaults.
+- Adapts to X `12.25.0-prod.01` (`312250001`).
+- Fixes replies that did not translate automatically or showed only the translation; completed automatic translations now retain the original text.
+- Fixes lingering Save Original controls after system Back, toolbar Back, and edge-back gestures.
+- Fixes unintended downloads when opening or changing videos. Explicit downloads save the selected content without adding downloads on later page changes.
+- Verified bilingual replies, original-image saving, viewer exit, and video downloading on a real device. Other X versions were not retested for this release.
+- No additional user-visible features were removed.
+
 ## 12.23.1-prod.01（versionCode 26）
 
 ### 中文
