@@ -20,17 +20,17 @@
   If XTQ helps you, please consider leaving a Star. Every Star is meaningful encouragement.
 </p>
 
-当前公开版本：`12.25.0-prod.01`（versionCode 36）。
+当前公开版本：`12.25.2-prod.01`（versionCode 40）。
 
-Current public release: `12.25.0-prod.01` (versionCode 36).
+Current public release: `12.25.2-prod.01` (versionCode 40).
 
-主要适配并已验证：X `12.25.0-prod.01`（versionCode `312250001`）。
+主要适配并已验证：X `12.25.2-prod.01`（versionCode `312252001`）。
 
-Primary verified compatibility: X `12.25.0-prod.01` (versionCode `312250001`).
+Primary verified compatibility: X `12.25.2-prod.01` (versionCode `312252001`).
 
-本次修复回复自动翻译和原文保留、退出图片查看页后的按钮残留，以及视频打开或翻页时的误下载；保留已有功能与设置默认值。
+本次为功能开关、媒体字段和帖子/作者读取加入动态适配与缓存回退，并适配 X 12.25.2。修复部分回复返回页面后不翻译、敏感媒体未直接显示的问题；保留已有功能与设置默认值。
 
-This update fixes automatic reply translation and original-text preservation, lingering image-save controls after leaving the viewer, and unintended downloads when opening or changing videos. Existing features and setting defaults are preserved.
+This update adds dynamic resolution and cached fallback for feature switches, media fields, and post/author readers, with X 12.25.2 support. It fixes missing reply translations after returning to a page and sensitive media not displaying directly. Existing features and setting defaults are preserved.
 
 每次 X 更新后，我都需要重新分析适配变化、构建候选并逐项实机验证。如果这些工作对你有帮助，欢迎给项目一个 Star。每一颗 Star 都是对我的鼓励。
 
@@ -46,7 +46,7 @@ After each X update, I work through compatibility changes, build candidates, and
 - **视频播放控制**：可选关闭视频播放结束后自动进入下一个视频；该选项与帖子内横向轮播独立，仍可手动切换，默认关闭。
 - **媒体显示选项**：提供敏感媒体显示和高质量视频选项。
 - **设置与反馈**：设置按类别分组并支持展开或收起，调整会自动保存并显示保存反馈；浏览历史入口随 X 语言本地化。
-- **兼容性回退**：遇到不匹配的适配目标时，保留 X 原生行为。
+- **动态适配与兼容性回退**：功能开关、媒体字段、帖子和作者读取支持经过校验的动态识别与缓存回退；不匹配时保留 X 原生行为。此能力不代表所有功能或未来 X 版本均能自动兼容。
 
 ## Features
 
@@ -58,18 +58,18 @@ After each X update, I work through compatibility changes, build candidates, and
 - **Video playback control**: Optionally stops automatic movement to the next video after playback; this is independent of the in-post horizontal carousel, and videos remain switchable manually. It is off by default.
 - **Media display options**: Provides sensitive-media display and high-quality video options.
 - **Settings and feedback**: Groups settings into collapsible categories, saves changes automatically with save feedback, and localizes the browsing-history entry to X's language.
-- **Compatibility fallback**: Preserves X's native behavior when a compatibility target does not match.
+- **Dynamic adaptation and fallback**: Validated discovery and cached fallback for feature switches, media fields, and post/author readers; unmatched targets preserve X's native behavior. This does not guarantee automatic compatibility for every feature or future X version.
 
 ## 兼容性
 
 - 静态 scope：仅 `com.twitter.android`。
-- X `12.25.0-prod.01`（`312250001`）：XTQ36 已完成实机安装、Hook 组加载，以及回复双语、原图保存、图片返回和视频手动下载/翻页验证。
+- X `12.25.2-prod.01`（`312252001`）：XTQ40 已验证实机安装、Hook 组加载、帖子双语显示、浏览历史保存/重启保留/重新打开及视频手动下载；同一功能代码已通过三种动态适配路径的进程测试。
 - 本次未重新验证其他 X 版本；旧版验证记录请参阅历史 Release。
 - X 更新可能改变内部适配目标；目标不匹配时 XTQ 保留 X 原行为。
 
 ## Compatibility
 
 - Static scope: `com.twitter.android` only.
-- X `12.25.0-prod.01` (`312250001`): XTQ36 passed on-device installation, Hook-group loading, bilingual replies, original-image saving, viewer exit, and manual video download/page-change checks.
+- X `12.25.2-prod.01` (`312252001`): XTQ40 passed installation, Hook-group loading, bilingual post display, history saving/restart persistence/reopening, and manual video download checks. The same feature code also passed process tests for all three resolution paths.
 - Other X versions were not retested for this release; earlier verification is documented in previous releases.
 - X updates may change internal compatibility targets; when a target does not match, XTQ preserves X's original behavior.

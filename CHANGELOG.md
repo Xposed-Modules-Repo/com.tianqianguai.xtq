@@ -1,5 +1,27 @@
 # Changelog
 
+## 12.25.2-prod.01（versionCode 40）
+
+### 中文
+
+- 保留浏览历史、链接净化、媒体下载、翻译、内容过滤和视频播放控制，已有设置默认值不变，无功能移除。
+- 适配 X `12.25.2-prod.01`（`312252001`）。
+- 功能开关、媒体字段及帖子/作者读取新增动态识别与缓存回退；不代表所有功能或未来版本均可自动适配。
+- 修复回复页面重建后翻译被错误去重，以及敏感媒体未直接显示的问题。
+- 更新视频事件与图库生命周期适配。
+- 381 项单元测试通过；三种动态解析路径共 72 项过程检查通过。最终安装包实测帖子双语、历史保存/重启保留/重新打开和视频下载，下载文件完整解码通过。
+- 本次未重新验证其他 X 版本，也未重跑所有旧功能的完整交互矩阵。
+
+### English
+
+- Preserves browsing history, link cleanup, media downloads, translation, filtering, and video playback controls. Existing defaults are unchanged; no features were removed.
+- Supports X `12.25.2-prod.01` (`312252001`).
+- Adds dynamic discovery and cached fallback for feature switches, media fields, and post/author readers; this is not universal or future-version compatibility.
+- Fixes reply translation being incorrectly deduplicated after page recreation and sensitive media not displaying directly.
+- Updates video-event and gallery-lifecycle compatibility.
+- Passed 381 unit tests and 72 process checks across three resolution paths. The final APK passed bilingual post display, history saving/restart persistence/reopening, and video downloading with a complete decode check.
+- Other X versions and the complete interaction matrix of all existing features were not retested for this release.
+
 ## 12.25.0-prod.01（versionCode 36）
 
 ### 中文
