@@ -1,5 +1,25 @@
 # Changelog
 
+## 12.27.0-prod.01（versionCode 42）
+
+### 中文
+
+- 适配 X **12.27.0-prod.01**，保留浏览历史、翻译、链接净化、媒体下载、过滤和视频控制，设置默认值不变，无功能移除。
+- 修复视频下载被误判为图片，以及错误带入相邻视频的问题；保存当前视频的最高有效码率文件。
+- 开启“视频下载接管”时，为原生隐藏下载项、但具有可下载文件的视频补出下载入口。
+- 修复图库路由监听，调整翻译请求超时和调度节奏；关闭下载操作弹窗后直接保存。
+- 已在 X 12.27.0 实机验证。本次未重跑其他 X 版本和所有旧功能的完整交互矩阵；不承诺所有视频格式均可下载。
+
+
+### English
+
+- Adapts to X **12.27.0-prod.01**, preserving browsing history, translation, link cleanup, downloads, filtering and video controls. Defaults are unchanged; no features were removed.
+- Fixes videos being mistaken for cover images and unrelated videos being included. Saves the current video's highest valid bitrate file.
+- With video download takeover enabled, exposes a download action for videos whose native menu hides it when a downloadable file is available.
+- Fixes gallery route tracking, adjusts translation timeout and pacing, and saves directly when the action dialog is disabled.
+- Verified on a real device running X 12.27.0. Other X versions and the full existing-feature interaction matrix were not retested. Not all video formats are supported.
+
+
 ## 12.25.2-prod.01（versionCode 40）
 
 ### 中文
