@@ -20,17 +20,17 @@
   If XTQ helps you, please consider leaving a Star. Every Star is meaningful encouragement.
 </p>
 
-当前公开版本：`12.27.0-prod.01`（versionCode 42）。
+当前公开版本：`12.27.1-prod.01`（versionCode 43）。
 
-Current public release: `12.27.0-prod.01` (versionCode 42).
+Current public release: `12.27.1-prod.01` (versionCode 43).
 
-主要适配并已验证：X `12.27.0-prod.01`（versionCode `312252001`）。
+主要适配并已验证：X `12.27.1-prod.01`（versionCode `312271001`）。
 
-Primary verified compatibility: X `12.27.0-prod.01` (versionCode `312252001`).
+Primary verified compatibility: X `12.27.1-prod.01` (versionCode `312271001`).
 
-本次适配 X 12.27.0，修复视频下载、当前媒体选择与图库路由，补充原生隐藏的可下载视频入口，并调整翻译调度。已有功能和设置默认值保留。
+本次适配 X 12.27.1，首页翻译按目视列表从上到下处理，修复帖子/作者读取、详情过滤、图库和视频契约。已有功能和设置默认值保留。
 
-This update supports X 12.27.0, fixes video downloading, current-media selection and gallery routing, exposes eligible hidden download actions, and adjusts translation pacing. Existing features and defaults are preserved.
+This update supports X 12.27.1, follows the visible feed from top to bottom for translation, and fixes post/author readers, detail filtering, gallery and video contracts. Existing features and defaults are preserved.
 
 每次 X 更新后，我都需要重新分析适配变化、构建候选并逐项实机验证。如果这些工作对你有帮助，欢迎给项目一个 Star。每一颗 Star 都是对我的鼓励。
 
@@ -41,7 +41,7 @@ After each X update, I work through compatibility changes, build candidates, and
 - **浏览历史**：在 X 内注入的侧边栏浏览历史，仅记录用户明确打开的帖子、视频或 GIF；不会记录滚动曝光、自动播放或仅查看图片。历史仅保留在本机并保持私密，支持重新打开记录和清空历史，不上传任何数据。
 - **链接净化**：净化剪贴板、分享和应用内跳转中的 X 链接跟踪参数，并支持选择或配置分享域名。
 - **原图与媒体下载**：图片查看页提供“保存原图”和多图“全部保存”；图片保存按钮与视频/GIF 下载接管分别控制，关闭后保留 X 的原生保存或下载方式。视频与 GIF 下载优先选择非 HLS 最高码率直链；开启视频接管时，为原生隐藏下载项且有有效下载文件的视频补出入口。
-- **原生翻译增强**：复用 X 原生翻译自动处理符合条件的短帖和回复，在自动翻译结果中保留原文；目标语言默认跟随 X，也可明确选择固定语言。空正文会跳过，待处理内容会及时刷新，手动翻译路径保持不变。
+- **原生翻译增强**：复用 X 原生翻译自动处理符合条件的短帖和回复，并按目视列表从上到下处理，在自动翻译结果中保留原文；目标语言默认跟随 X，也可明确选择固定语言。空正文会跳过，待处理内容会及时刷新，手动翻译路径保持不变。
 - **内容过滤**：隐藏推广内容、推广用户、视频轮播、资料推荐和横幅；广告帖子过滤覆盖帖子详情中的嵌套模块。
 - **视频播放控制**：可选关闭视频播放结束后自动进入下一个视频；该选项与帖子内横向轮播独立，仍可手动切换，默认关闭。
 - **媒体显示选项**：提供敏感媒体显示和高质量视频选项。
@@ -53,7 +53,7 @@ After each X update, I work through compatibility changes, build candidates, and
 - **Browsing history**: Injected inside X's sidebar, local browsing history records only posts, videos, or GIFs that the user explicitly opens; it does not record scroll exposure, autoplay, or image-only viewing. History stays local and private, supports reopening entries and clearing history, and uploads no data.
 - **Link cleanup**: Cleans tracking parameters from X links copied, shared, or opened in the app, with selectable and configurable share domains.
 - **Original images and media downloads**: Adds “Save original” and multi-image “Save all” actions to the image viewer; image save buttons and video/GIF download takeover are controlled separately, and turning either off keeps X's native save or download behavior. Video and GIF downloads prefer the highest-bitrate non-HLS direct variant. With takeover enabled, eligible videos with a supported file gain a download action even when the native menu hides it.
-- **Native translation enhancements**: Reuses X's native translation flow to automatically translate eligible short posts and replies while preserving the original text; the target follows X by default or can be set explicitly. Empty bodies are skipped and pending work is refreshed promptly; manual translation remains unchanged.
+- **Native translation enhancements**: Reuses X's native translation flow to automatically translate eligible short posts and replies from top to bottom in the visible list while preserving the original text; the target follows X by default or can be set explicitly. Empty bodies are skipped and pending work is refreshed promptly; manual translation remains unchanged.
 - **Content filtering**: Hides promoted content, promoted users, video carousels, profile recommendations, and banners; promoted-post filtering also covers nested modules in post details.
 - **Video playback control**: Optionally stops automatic movement to the next video after playback; this is independent of the in-post horizontal carousel, and videos remain switchable manually. It is off by default.
 - **Media display options**: Provides sensitive-media display and high-quality video options.
@@ -63,13 +63,13 @@ After each X update, I work through compatibility changes, build candidates, and
 ## 兼容性
 
 - 静态 scope：仅 `com.twitter.android`。
-- X `12.27.0-prod.01`（`312270001`）：在实机验证视频菜单补出与下载；既有功能保留，验证范围见本次 Release。
+- X `12.27.1-prod.01`（`312271001`）：`.13` 实测英文帖子翻译、双语显示和图库保存；`.13`、`.90` 均完成正式包安装验证。
 - 本次未重新验证其他 X 版本；旧版验证记录请参阅历史 Release。
 - X 更新可能改变内部适配目标；目标不匹配时 XTQ 保留 X 原行为。
 
 ## Compatibility
 
 - Static scope: `com.twitter.android` only.
-- X `12.27.0-prod.01` (`312270001`): Video menu availability and downloads were verified on a real device. Existing features are preserved; see this Release for verification scope.
+- X `12.27.1-prod.01` (`312271001`): English-post translation, bilingual display and gallery saving were verified on `.13`; the final package was installed on `.13` and `.90`.
 - Other X versions were not retested for this release; earlier verification is documented in previous releases.
 - X updates may change internal compatibility targets; when a target does not match, XTQ preserves X's original behavior.

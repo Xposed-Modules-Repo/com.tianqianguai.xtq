@@ -1,5 +1,19 @@
 # Changelog
 
+## 12.27.1-prod.01（versionCode 43）
+
+### 中文
+
+- 适配 X 12.27.1，首页翻译按目视列表从上到下处理。
+- 修复帖子/作者读取、详情过滤、图库和视频契约，保留已有功能和设置默认值。
+- `.13` 实测英文帖子翻译、双语显示和图库保存；`.13`、`.90` 完成正式包安装验证。
+
+### English
+
+- Supports X 12.27.1; home-feed translation follows the visible list from top to bottom.
+- Fixes post/author readers, detail filtering, gallery and video contracts while preserving existing features and defaults.
+- English-post translation, bilingual display and gallery saving passed on `.13`; final package installation passed on `.13` and `.90`.
+
 ## 12.27.0-prod.01（versionCode 42）
 
 ### 中文
