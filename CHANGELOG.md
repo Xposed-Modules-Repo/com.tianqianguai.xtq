@@ -4,27 +4,23 @@
 
 ### 中文
 
-- 修复视频下载失效和最高画质适配；`.13` 正式包真实视频下载成功并输出可读的 1280×720 文件。
-- 首页翻译按目视列表从上到下处理；已有功能和设置默认值保留。
+- 修复视频下载失效和最高画质适配；已有功能和设置默认值保留。
 
 ### English
 
-- Fixes video downloading and highest-quality adaptation; a real `.13` Release-build download produced a readable 1280×720 file.
-- Home-feed translation follows the visible list from top to bottom; existing features and defaults are preserved.
+- Fixes video downloading and highest-quality adaptation while preserving existing features and defaults.
 
 ## 12.27.1-prod.01（versionCode 43）
 
 ### 中文
 
-- 适配 X 12.27.1，首页翻译按目视列表从上到下处理。
+- 适配 X 12.27.1，修复帖子/作者读取、详情过滤、图库、视频下载和最高画质契约。
 - 修复帖子/作者读取、详情过滤、图库和视频契约，保留已有功能和设置默认值。
-- `.13` 实测英文帖子翻译、双语显示和图库保存；`.13`、`.90` 完成正式包安装验证。
 
 ### English
 
-- Supports X 12.27.1; home-feed translation follows the visible list from top to bottom.
+- Supports X 12.27.1 and fixes post/author readers, detail filtering, gallery, video downloads and highest-quality contracts.
 - Fixes post/author readers, detail filtering, gallery and video contracts while preserving existing features and defaults.
-- English-post translation, bilingual display and gallery saving passed on `.13`; final package installation passed on `.13` and `.90`.
 
 ## 12.27.0-prod.01（versionCode 42）
 
