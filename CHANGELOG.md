@@ -1,5 +1,17 @@
 # Changelog
 
+## 12.27.1-prod.01（versionCode 44）
+
+### 中文
+
+- 修复视频下载失效和最高画质适配；`.13` 正式包真实视频下载成功并输出可读的 1280×720 文件。
+- 首页翻译按目视列表从上到下处理；已有功能和设置默认值保留。
+
+### English
+
+- Fixes video downloading and highest-quality adaptation; a real `.13` Release-build download produced a readable 1280×720 file.
+- Home-feed translation follows the visible list from top to bottom; existing features and defaults are preserved.
+
 ## 12.27.1-prod.01（versionCode 43）
 
 ### 中文

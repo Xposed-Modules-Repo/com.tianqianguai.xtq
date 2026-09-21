@@ -20,9 +20,9 @@
   If XTQ helps you, please consider leaving a Star. Every Star is meaningful encouragement.
 </p>
 
-当前公开版本：`12.27.1-prod.01`（versionCode 43）。
+当前公开版本：`12.27.1-prod.01`（versionCode 44）。
 
-Current public release: `12.27.1-prod.01` (versionCode 43).
+Current public release: `12.27.1-prod.01` (versionCode 44).
 
 主要适配并已验证：X `12.27.1-prod.01`（versionCode `312271001`）。
 
