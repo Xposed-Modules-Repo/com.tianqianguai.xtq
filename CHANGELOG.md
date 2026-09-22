@@ -1,5 +1,16 @@
 # Changelog
 
+## 12.28.0-prod.01（versionCode 45）
+
+- 适配 X 12.28.0-prod.01。
+- Supports X 12.28.0-prod.01.
+- 恢复该版本的翻译、浏览历史、图库、视频下载、最高画质和停止自动连播流程；目标不匹配时保留 X 原生行为。
+- Restores the translation, browsing-history, gallery, video-download, highest-quality, and stop-auto-advance flows for this version; unmatched targets preserve X's native behavior.
+- 新增“隐藏桌面图标”设置：启用后隐藏 XTQ 的系统桌面图标，仍可从 LSPosed 模块管理中打开 XTQ 设置；默认显示。
+- Adds a “Hide desktop icon” setting. When enabled, it hides XTQ from the system launcher while settings remain available from the LSPosed module manager; the icon is shown by default.
+- 保留已有功能和设置默认值；本版本没有移除用户可见功能。
+- Existing features and setting defaults are preserved; no user-visible feature was removed.
+
 ## 12.27.1-prod.01（versionCode 44）
 
 ### 中文

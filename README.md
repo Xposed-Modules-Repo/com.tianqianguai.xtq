@@ -20,17 +20,17 @@
   If XTQ helps you, please consider leaving a Star. Every Star is meaningful encouragement.
 </p>
 
-当前公开版本：`12.27.1-prod.01`（versionCode 44）。
+当前公开版本：`12.28.0-prod.01`（versionCode 45）。
 
-Current public release: `12.27.1-prod.01` (versionCode 44).
+Current public release: `12.28.0-prod.01` (versionCode 45).
 
-主要适配并已验证：X `12.27.1-prod.01`（versionCode `312271001`）。
+主要适配版本：X `12.28.0-prod.01`（versionCode `312280001`）。
 
-Primary verified compatibility: X `12.27.1-prod.01` (versionCode `312271001`).
+Primary supported compatibility: X `12.28.0-prod.01` (versionCode `312280001`).
 
-本次适配 X 12.27.1，修复帖子/作者读取、详情过滤、图库、视频下载和最高画质契约。已有功能和设置默认值保留。
+本次适配 X 12.28.0，恢复该版本的翻译、浏览历史、图库、视频下载、最高画质和停止自动连播流程，并新增可选的“隐藏桌面图标”设置。图标默认显示，已有功能和设置默认值保留。
 
-This update supports X 12.27.1 and fixes post/author readers, detail filtering, gallery, video downloads and highest-quality contracts. Existing features and defaults are preserved.
+This update supports X 12.28.0, restores the translation, browsing-history, gallery, video-download, highest-quality, and stop-auto-advance flows for this version, and adds an optional “Hide desktop icon” setting. The icon is shown by default, and existing features and setting defaults are preserved.
 
 每次 X 更新后，我都需要重新分析适配变化、构建候选并逐项实机验证。如果这些工作对你有帮助，欢迎给项目一个 Star。每一颗 Star 都是对我的鼓励。
 
@@ -46,6 +46,7 @@ After each X update, I work through compatibility changes, build candidates, and
 - **视频播放控制**：可选关闭视频播放结束后自动进入下一个视频；该选项与帖子内横向轮播独立，仍可手动切换，默认关闭。
 - **媒体显示选项**：提供敏感媒体显示和高质量视频选项。
 - **设置与反馈**：设置按类别分组并支持展开或收起，调整会自动保存并显示保存反馈；浏览历史入口随 X 语言本地化。
+- **桌面图标**：可选隐藏 XTQ 的系统桌面图标；仍可从 LSPosed 模块管理中打开 XTQ 设置，默认显示。
 - **动态适配与兼容性回退**：功能开关、媒体字段、帖子和作者读取支持经过校验的动态识别与缓存回退；不匹配时保留 X 原生行为。此能力不代表所有功能或未来 X 版本均能自动兼容。
 
 ## Features
@@ -58,18 +59,19 @@ After each X update, I work through compatibility changes, build candidates, and
 - **Video playback control**: Optionally stops automatic movement to the next video after playback; this is independent of the in-post horizontal carousel, and videos remain switchable manually. It is off by default.
 - **Media display options**: Provides sensitive-media display and high-quality video options.
 - **Settings and feedback**: Groups settings into collapsible categories, saves changes automatically with save feedback, and localizes the browsing-history entry to X's language.
+- **Launcher icon**: Optionally hides the XTQ icon from the system launcher; XTQ settings remain available from the LSPosed module manager, and the icon is shown by default.
 - **Dynamic adaptation and fallback**: Validated discovery and cached fallback for feature switches, media fields, and post/author readers; unmatched targets preserve X's native behavior. This does not guarantee automatic compatibility for every feature or future X version.
 
 ## 兼容性
 
 - 静态 scope：仅 `com.twitter.android`。
-- X `12.27.1-prod.01`（`312271001`）：修复帖子/作者读取、详情过滤、图库、视频下载和最高画质契约。
+- X `12.28.0-prod.01`（`312280001`）：恢复翻译、浏览历史、图库、视频下载、最高画质和停止自动连播流程；新增可选隐藏桌面图标设置。
 - 本次未重新验证其他 X 版本；旧版验证记录请参阅历史 Release。
 - X 更新可能改变内部适配目标；目标不匹配时 XTQ 保留 X 原行为。
 
 ## Compatibility
 
 - Static scope: `com.twitter.android` only.
-- X `12.27.1-prod.01` (`312271001`): Fixes post/author readers, detail filtering, gallery, video downloads and highest-quality contracts.
+- X `12.28.0-prod.01` (`312280001`): Restores the translation, browsing-history, gallery, video-download, highest-quality, and stop-auto-advance flows for this version, and adds an optional launcher-icon setting.
 - Other X versions were not retested for this release; earlier verification is documented in previous releases.
 - X updates may change internal compatibility targets; when a target does not match, XTQ preserves X's original behavior.
