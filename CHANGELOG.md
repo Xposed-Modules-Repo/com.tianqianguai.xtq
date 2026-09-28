@@ -1,5 +1,20 @@
 # Changelog
 
+## 12.29.1-prod.01（versionCode 46）
+
+- 适配 X 12.29.1-prod.01。<br>
+  Supports X 12.29.1-prod.01.
+- 新增配置导入与导出，可通过 JSON 文件迁移设置；不包含浏览历史。<br>
+  Adds settings import and export through JSON files for migration; browsing history is excluded.
+- 新增媒体文件命名选项：账号名、昵称或用户 ID 搭配帖子 ID，也可选择仅帖子 ID 或时间戳；默认保留原命名规则。<br>
+  Adds media filename options: username, display name, or user ID with the post ID, post ID only, or timestamp; existing naming remains the default.
+- 新增阻止自动刷新开关：重启 X 或返回首页时保留已有缓存，手动下拉刷新及无缓存时的加载仍可使用。<br>
+  Adds an option to prevent automatic refresh, keeping cached Home posts after restarting X or returning to Home while preserving manual pull-to-refresh and loading without a cache.
+- 新增隐藏首页直播与 Spaces 栏的开关，默认关闭，不关闭空间功能。<br>
+  Adds an option to hide the Home live and Spaces bar, off by default, while keeping Spaces available.
+- 修复隐藏桌面图标后无法从 LSPosed 模块管理打开 XTQ 设置的问题。<br>
+  Fixes opening XTQ settings from the LSPosed module manager when the launcher icon is hidden.
+
 ## 12.28.0-prod.01（versionCode 45）
 
 - 适配 X 12.28.0-prod.01。
