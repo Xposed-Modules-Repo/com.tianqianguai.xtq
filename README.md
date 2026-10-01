@@ -20,26 +20,23 @@
   If XTQ helps you, please consider leaving a Star. Every Star is meaningful encouragement.
 </p>
 
-当前公开版本：`12.29.1-prod.01`（versionCode 46）。<br>
-Current public release: `12.29.1-prod.01` (versionCode 46).
+当前公开版本：`12.30.0-prod.01`（versionCode 51）。<br>
+Current public release: `12.30.0-prod.01` (versionCode 51).
 
-主要适配版本：X `12.29.1-prod.01`（`312291001`）。<br>
-Primary supported X version: `12.29.1-prod.01` (`312291001`).
+主要适配版本：X `12.30.0-prod.01`（`312300001`）。<br>
+Primary supported X version: `12.30.0-prod.01` (`312300001`).
 
 ## 本版更新 / This release
 
-- 适配 X 12.29.1-prod.01。<br>
-  Supports X 12.29.1-prod.01.
-- 新增配置导入与导出，可通过 JSON 文件迁移设置；不包含浏览历史。<br>
-  Adds settings import and export through JSON files for migration; browsing history is excluded.
-- 新增媒体文件命名选项：账号名、昵称或用户 ID 搭配帖子 ID，也可选择仅帖子 ID 或时间戳；默认保留原命名规则。<br>
-  Adds media filename options: username, display name, or user ID with the post ID, post ID only, or timestamp; existing naming remains the default.
-- 新增阻止自动刷新开关：重启 X 或返回首页时保留已有缓存，手动下拉刷新及无缓存时的加载仍可使用。<br>
-  Adds an option to prevent automatic refresh, keeping cached Home posts after restarting X or returning to Home while preserving manual pull-to-refresh and loading without a cache.
-- 新增隐藏首页直播与 Spaces 栏的开关，默认关闭，不关闭空间功能。<br>
-  Adds an option to hide the Home live and Spaces bar, off by default, while keeping Spaces available.
-- 修复隐藏桌面图标后无法从 LSPosed 模块管理打开 XTQ 设置的问题。<br>
-  Fixes opening XTQ settings from the LSPosed module manager when the launcher icon is hidden.
+- 适配 X 12.30.0-prod.01，恢复浏览历史、翻译与内容过滤的新版兼容性。<br>
+  Supports X 12.30.0-prod.01, restoring browsing history, translation and content filtering for this version.
+- 修复新版 X 的视频下载菜单、最高画质选择、图库保存，以及停止连播和防自动刷新控制。<br>
+  Fixes the video download menu, highest-quality selection, gallery saving, stop-auto-advance and automatic refresh controls in the new X version.
+- 修复 X 原生“保存图片”未遵循自定义目录和文件命名的问题；默认设置继续使用原生保存。<br>
+  Fixes X's native “Save image” ignoring custom folders and filenames; default settings retain native saving.
+
+部分翻译请求仍可能超时，未取得译文时保留原文。<br>
+Some translation requests may still time out; the original text remains when no translation is available.
 
 ## 功能 / Features
 
@@ -47,8 +44,8 @@ Primary supported X version: `12.29.1-prod.01` (`312291001`).
   **Browsing history**: Injected inside X's sidebar, local browsing history records only posts, videos, or GIFs that the user explicitly opens; it does not record scroll exposure, autoplay, or image-only viewing. History stays local and private, supports reopening entries and clearing history, and uploads no data.
 - **链接净化**：净化剪贴板、分享和应用内跳转中的 X 链接跟踪参数，并支持选择或配置分享域名。<br>
   **Link cleanup**: Cleans tracking parameters from X links copied, shared, or opened in the app, with selectable and configurable share domains.
-- **原图与媒体下载**：图片查看页提供“保存原图”和多图“全部保存”；图片保存按钮与视频/GIF 下载接管分别控制，关闭后保留 X 的原生保存或下载方式。视频与 GIF 下载优先选择非 HLS 最高码率直链；开启视频接管时，为原生隐藏下载项且有有效下载文件的视频补出入口。<br>
-  **Original images and media downloads**: Adds “Save original” and multi-image “Save all” actions to the image viewer; image save buttons and video/GIF download takeover are controlled separately, and turning either off keeps X's native save or download behavior. Video and GIF downloads prefer the highest-bitrate non-HLS direct variant. With takeover enabled, eligible videos with a supported file gain a download action even when the native menu hides it.
+- **原图与媒体下载**：图片查看页提供“保存原图”和多图“全部保存”，图片按钮与视频/GIF 下载接管分别控制；自定义目录或命名也应用于 X 原生“保存图片”，默认配置保留原生保存行为。视频与 GIF 下载优先选择非 HLS 最高码率直链；开启视频接管时，为原生隐藏下载项且有有效下载文件的视频补出入口。<br>
+  **Original images and media downloads**: Adds “Save original” and multi-image “Save all” actions, with separate controls for image buttons and video/GIF download takeover. Custom folders or filenames also apply to X's native “Save image”; default settings retain native saving. Video and GIF downloads prefer the highest-bitrate non-HLS direct variant. With takeover enabled, eligible videos with a supported file gain a download action even when the native menu hides it.
 - **原生翻译增强**：复用 X 原生翻译自动处理符合条件的短帖和回复，在自动翻译结果中保留原文；目标语言默认跟随 X，也可明确选择固定语言。空正文会跳过，待处理内容会及时刷新，手动翻译路径保持不变。<br>
   **Native translation enhancements**: Reuses X's native translation flow to automatically translate eligible short posts and replies while preserving the original text; the target follows X by default or can be set explicitly. Empty bodies are skipped and pending work is refreshed promptly; manual translation remains unchanged.
 - **内容过滤**：隐藏推广内容、推广用户、视频轮播、资料推荐和横幅；广告帖子过滤覆盖帖子详情中的嵌套模块。<br>
@@ -76,8 +73,8 @@ Primary supported X version: `12.29.1-prod.01` (`312291001`).
 
 - 作用范围仅为 `com.twitter.android`。<br>
   Scope is limited to `com.twitter.android`.
-- 主要适配 X 12.29.1-prod.01，保留 X 12.28.0 分支；其他旧版记录请参阅历史 Release。<br>
-  Targets X 12.29.1-prod.01 and retains the X 12.28.0 branch; see past releases for earlier-version records.
+- 本版主要适配 X 12.30.0-prod.01；其他版本的兼容记录请参阅对应历史 Release。<br>
+  This release targets X 12.30.0-prod.01; see the corresponding past releases for other-version compatibility records.
 - X 更新可能改变内部适配目标；不匹配时保留 X 原行为，不承诺未来版本自动兼容。<br>
   X updates may change compatibility targets; unmatched targets preserve X behavior, and future-version compatibility is not guaranteed.
 

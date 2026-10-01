@@ -1,5 +1,17 @@
 # Changelog
 
+## 12.30.0-prod.01（versionCode 51）
+
+- 适配 X 12.30.0-prod.01，恢复浏览历史、翻译与内容过滤的新版兼容性。<br>
+  Supports X 12.30.0-prod.01, restoring browsing history, translation and content filtering for this version.
+- 修复新版 X 的视频下载菜单、最高画质选择、图库保存，以及停止连播和防自动刷新控制。<br>
+  Fixes the video download menu, highest-quality selection, gallery saving, stop-auto-advance and automatic refresh controls in the new X version.
+- 修复 X 原生“保存图片”未遵循自定义目录和文件命名的问题；默认设置继续使用原生保存。<br>
+  Fixes X's native “Save image” ignoring custom folders and filenames; default settings retain native saving.
+
+部分翻译请求仍可能超时，未取得译文时保留原文。<br>
+Some translation requests may still time out; the original text remains when no translation is available.
+
 ## 12.29.1-prod.01（versionCode 46）
 
 - 适配 X 12.29.1-prod.01。<br>

@@ -1,2 +1,2 @@
-XTQ：浏览历史、翻译、媒体下载与内容过滤；适配 X 12.29.1，新增配置迁移、下载命名、防自动刷新和隐藏直播空间栏。
-XTQ: Browsing history, translation, media downloads and filtering; supports X 12.29.1 with settings transfer, download naming, auto-refresh prevention and a hidden live/Spaces bar option.
+XTQ：浏览历史、翻译、媒体下载与过滤；适配 X 12.30.0，原生图片保存支持自定义目录与命名。
+XTQ: Browsing history, translation, media downloads and filtering for X 12.30.0; native image saving respects custom folders and filenames.
