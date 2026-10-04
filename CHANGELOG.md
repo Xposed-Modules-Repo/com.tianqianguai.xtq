@@ -1,5 +1,16 @@
 # Changelog
 
+## 12.31.0-prod.01（versionCode 56）
+
+- 适配 X 12.31.0-prod.01，恢复浏览历史入口与记录、自动翻译的原文与译文显示，以及广告过滤。<br>
+  Supports X 12.31.0-prod.01, restoring browsing-history access and recording, original-plus-translated text, and ad filtering.
+- 修复新版视频下载、原图保存与自定义命名；单媒体文件不再额外添加 `_1`，多媒体保留序号。<br>
+  Fixes video downloads, original-image saving and custom filenames in the new X version; single-media files no longer get an extra `_1`, while multiple files retain their sequence numbers.
+- 修复最高画质选择和停止自动播放下一条视频，保留手动切换。<br>
+  Fixes highest-quality playback selection and stopping automatic advance to the next video while preserving manual switching.
+- 新增“优先使用 Re:X”选项，默认关闭；开启后让出指定重叠功能并隐藏对应设置，关闭后恢复 XTQ 控制与原设置值。<br>
+  Adds an optional “Prefer Re:X” mode, off by default. It yields selected overlapping features and hides their controls; turning it off restores XTQ control and saved settings.
+
 ## 12.30.0-prod.01（versionCode 51）
 
 - 适配 X 12.30.0-prod.01，恢复浏览历史、翻译与内容过滤的新版兼容性。<br>
