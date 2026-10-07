@@ -73,12 +73,8 @@ Primary supported X version: `12.31.0-prod.01` (`312310001`).
 
 ## 兼容性 / Compatibility
 
-- 作用范围仅为 `com.twitter.android`。<br>
-  Scope is limited to `com.twitter.android`.
 - 本版主要适配 X 12.31.0-prod.01；其他版本的兼容记录请参阅对应历史 Release。<br>
   This release targets X 12.31.0-prod.01; see the corresponding past releases for other-version compatibility records.
-- X 更新可能改变内部适配目标；不匹配时保留 X 原行为，不承诺未来版本自动兼容。<br>
-  X updates may change compatibility targets; unmatched targets preserve X behavior, and future-version compatibility is not guaranteed.
 
 每次 X 更新后，我都需要分析变化、构建候选并进行实机验证。<br>
 After each X update, I analyze changes, build candidates, and test on real devices.
