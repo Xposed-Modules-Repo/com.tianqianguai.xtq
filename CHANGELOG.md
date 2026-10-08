@@ -1,5 +1,20 @@
 # Changelog
 
+## 12.32.0-prod.01（versionCode 61）
+
+- 新增浏览历史全文搜索，支持正文、作者和帖子 ID；优化历史页打开速度。<br>
+  Adds full-text browsing-history search by body, author and post ID, with faster history opening.
+- 适配 X 12.32.0-prod.01，保留翻译、原图保存、视频下载和播放控制。<br>
+  Supports X 12.32.0-prod.01 while preserving translation, original-image saving, video downloads and playback controls.
+- 新增“账号名_时间戳”文件名和自定义命名模板，保留原有命名选项与默认值。<br>
+  Adds username_timestamp filenames and custom naming templates while preserving existing options and defaults.
+- 修复已有首页缓存时，重启 X 仍自动刷新的问题。<br>
+  Fixes automatic refresh on X restart when Home already has cached posts.
+- 新增项目主页、交流群和发布频道入口，方便查看更新与反馈。<br>
+  Adds project, community-group and release-channel links for updates and feedback.
+- 增加卡顿、翻译和下载阶段诊断信息，便于定位问题。<br>
+  Adds performance, translation and download-stage diagnostics to help investigate problems.
+
 ## 12.31.0-prod.01（versionCode 56）
 
 - 适配 X 12.31.0-prod.01，恢复浏览历史入口与记录、自动翻译的原文与译文显示，以及广告过滤。<br>

@@ -20,27 +20,31 @@
   If XTQ helps you, please consider leaving a Star. Every Star is meaningful encouragement.
 </p>
 
-当前公开版本：`12.31.0-prod.01`（versionCode 56）。<br>
-Current public release: `12.31.0-prod.01` (versionCode 56).
+当前公开版本：`12.32.0-prod.01`（versionCode 61）。<br>
+Current public release: `12.32.0-prod.01` (versionCode 61).
 
-主要适配版本：X `12.31.0-prod.01`（`312310001`）。<br>
-Primary supported X version: `12.31.0-prod.01` (`312310001`).
+主要适配版本：X `12.32.0-prod.01`（`312320001`）。<br>
+Primary supported X version: `12.32.0-prod.01` (`312320001`).
 
 ## 本版更新 / This release
 
-- 适配 X 12.31.0-prod.01，恢复浏览历史入口与记录、自动翻译的原文与译文显示，以及广告过滤。<br>
-  Supports X 12.31.0-prod.01, restoring browsing-history access and recording, original-plus-translated text, and ad filtering.
-- 修复新版视频下载、原图保存与自定义命名；单媒体文件不再额外添加 `_1`，多媒体保留序号。<br>
-  Fixes video downloads, original-image saving and custom filenames in the new X version; single-media files no longer get an extra `_1`, while multiple files retain their sequence numbers.
-- 修复最高画质选择和停止自动播放下一条视频，保留手动切换。<br>
-  Fixes highest-quality playback selection and stopping automatic advance to the next video while preserving manual switching.
-- 新增“优先使用 Re:X”选项，默认关闭；开启后让出指定重叠功能并隐藏对应设置，关闭后恢复 XTQ 控制与原设置值。<br>
-  Adds an optional “Prefer Re:X” mode, off by default. It yields selected overlapping features and hides their controls; turning it off restores XTQ control and saved settings.
+- 新增浏览历史全文搜索，支持正文、作者和帖子 ID；优化历史页打开速度。<br>
+  Adds full-text browsing-history search by body, author and post ID, with faster history opening.
+- 适配 X 12.32.0-prod.01，保留翻译、原图保存、视频下载和播放控制。<br>
+  Supports X 12.32.0-prod.01 while preserving translation, original-image saving, video downloads and playback controls.
+- 新增“账号名_时间戳”文件名和自定义命名模板，保留原有命名选项与默认值。<br>
+  Adds username_timestamp filenames and custom naming templates while preserving existing options and defaults.
+- 修复已有首页缓存时，重启 X 仍自动刷新的问题。<br>
+  Fixes automatic refresh on X restart when Home already has cached posts.
+- 新增项目主页、交流群和发布频道入口，方便查看更新与反馈。<br>
+  Adds project, community-group and release-channel links for updates and feedback.
+- 增加卡顿、翻译和下载阶段诊断信息，便于定位问题。<br>
+  Adds performance, translation and download-stage diagnostics to help investigate problems.
 
 ## 功能 / Features
 
-- **浏览历史**：在 X 内注入的侧边栏浏览历史，仅记录用户明确打开的帖子、视频或 GIF；不会记录滚动曝光、自动播放或仅查看图片。历史仅保留在本机并保持私密，支持重新打开记录和清空历史，不上传任何数据。<br>
-  **Browsing history**: Injected inside X's sidebar, local browsing history records only posts, videos, or GIFs that the user explicitly opens; it does not record scroll exposure, autoplay, or image-only viewing. History stays local and private, supports reopening entries and clearing history, and uploads no data.
+- **浏览历史**：在 X 内注入的侧边栏浏览历史，仅记录用户明确打开的帖子、视频或 GIF；不会记录滚动曝光、自动播放或仅查看图片。历史仅保留在本机并保持私密，支持全文搜索、重新打开记录和清空历史，不上传任何数据；列表按可见内容加载，减少打开等待。旧版截断记录需再次浏览后补全正文。<br>
+  **Browsing history**: Injected inside X's sidebar, local browsing history records only posts, videos, or GIFs that the user explicitly opens; it does not record scroll exposure, autoplay, or image-only viewing. History stays local and private, supports full-text search, reopening entries and clearing history, and uploads no data. Visible rows are loaded as needed to reduce opening delays. Revisit older truncated entries to fill in their full text.
 - **链接净化**：净化剪贴板、分享和应用内跳转中的 X 链接跟踪参数，并支持选择或配置分享域名。<br>
   **Link cleanup**: Cleans tracking parameters from X links copied, shared, or opened in the app, with selectable and configurable share domains.
 - **原图与媒体下载**：图片查看页提供“保存原图”和多图“全部保存”，图片按钮与视频/GIF 下载接管分别控制；XTQ 管理的图片保存使用自定义目录和命名，默认配置保留 X 原生图片保存行为。视频与 GIF 下载优先选择非 HLS 最高码率直链；开启视频接管时，为原生隐藏下载项且有有效下载文件的视频补出入口。<br>
@@ -61,8 +65,8 @@ Primary supported X version: `12.31.0-prod.01` (`312310001`).
   **Dynamic adaptation and fallback**: Validated discovery and cached fallback for feature switches, media fields, and post/author readers; unmatched targets preserve X's native behavior. This does not guarantee automatic compatibility for every feature or future X version.
 - **配置迁移**：支持 JSON 设置导入与导出，不导出浏览历史。<br>
   **Settings transfer**: Imports and exports settings as JSON without browsing history.
-- **下载命名**：提供账号名、昵称、用户 ID、帖子 ID 及时间戳等命名格式；单媒体不加多余序号，多媒体保留序号。<br>
-  **Download filenames**: Offers naming formats using usernames, display names, user IDs, post IDs, or timestamps; single-media files omit an unnecessary sequence suffix and multiple files retain their sequence numbers.
+- **下载命名**：提供账号名、昵称、用户 ID、帖子 ID 及时间戳等命名格式，也支持“账号名_时间戳”和自定义模板；单媒体不加多余序号，多媒体保留序号。<br>
+  **Download filenames**: Offers naming formats using usernames, display names, user IDs, post IDs, or timestamps, including username_timestamp and custom templates; single-media files omit an unnecessary sequence suffix and multiple files retain their sequence numbers.
 - **自动刷新控制**：可保留重启或返回首页时的缓存内容，手动刷新和无缓存加载保持可用，默认关闭。<br>
   **Automatic refresh control**: Can retain cached Home content across restarts and returns; manual refresh and loading without a cache remain available. Off by default.
 - **首页直播空间栏**：可选隐藏首页直播与 Spaces 栏，空间功能和其他入口保留，默认关闭。<br>
@@ -71,10 +75,15 @@ Primary supported X version: `12.31.0-prod.01` (`312310001`).
 - **Re:X 共存**：可选“优先使用 Re:X”，默认关闭；让出指定重叠功能并隐藏对应设置，原设置值仍保留。浏览历史、翻译、XTQ 图片保存、最高画质和停止自动连播仍由 XTQ 控制。Re:X 视频下载的目录与命名由 Re:X 配置；此选项不会自动启用 Re:X 或修改其配置。<br>
   **Re:X coexistence**: Optional “Prefer Re:X” mode is off by default. It yields selected overlapping features and hides their controls while preserving saved values. Browsing history, translation, XTQ image saving, highest-quality playback and stop-auto-advance remain under XTQ control. Re:X manages its own video download folders and filenames; this option does not enable Re:X or modify its configuration.
 
+- **社区与更新**：设置内提供项目主页、交流群和发布频道入口。<br>
+  **Community and updates**: Settings link to the project, community group and release channel.
+- **问题反馈**：诊断信息增加卡顿、翻译和下载阶段的耗时，帮助定位异常。<br>
+  **Problem reports**: Diagnostics include performance, translation and download-stage timings to help locate issues.
+
 ## 兼容性 / Compatibility
 
-- 本版主要适配 X 12.31.0-prod.01；其他版本的兼容记录请参阅对应历史 Release。<br>
-  This release targets X 12.31.0-prod.01; see the corresponding past releases for other-version compatibility records.
+- 本版主要适配 X 12.32.0-prod.01；其他版本的兼容记录请参阅对应历史 Release。<br>
+  This release targets X 12.32.0-prod.01; see the corresponding past releases for other-version compatibility records.
 
 每次 X 更新后，我都需要分析变化、构建候选并进行实机验证。<br>
 After each X update, I analyze changes, build candidates, and test on real devices.
