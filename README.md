@@ -20,26 +20,18 @@
   If XTQ helps you, please consider leaving a Star. Every Star is meaningful encouragement.
 </p>
 
-当前公开版本：`12.32.0-prod.01`（versionCode 61）。<br>
-Current public release: `12.32.0-prod.01` (versionCode 61).
+当前公开版本：`12.33.0-prod.01`（versionCode 62）。<br>
+Current public release: `12.33.0-prod.01` (versionCode 62).
 
-主要适配版本：X `12.32.0-prod.01`（`312320001`）。<br>
-Primary supported X version: `12.32.0-prod.01` (`312320001`).
+主要适配版本：X `12.33.0-prod.01`（`312330001`）。<br>
+Primary supported X version: `12.33.0-prod.01` (`312330001`).
 
 ## 本版更新 / This release
 
-- 新增浏览历史全文搜索，支持正文、作者和帖子 ID；优化历史页打开速度。<br>
-  Adds full-text browsing-history search by body, author and post ID, with faster history opening.
-- 适配 X 12.32.0-prod.01，保留翻译、原图保存、视频下载和播放控制。<br>
-  Supports X 12.32.0-prod.01 while preserving translation, original-image saving, video downloads and playback controls.
-- 新增“账号名_时间戳”文件名和自定义命名模板，保留原有命名选项与默认值。<br>
-  Adds username_timestamp filenames and custom naming templates while preserving existing options and defaults.
-- 修复已有首页缓存时，重启 X 仍自动刷新的问题。<br>
-  Fixes automatic refresh on X restart when Home already has cached posts.
-- 新增项目主页、交流群和发布频道入口，方便查看更新与反馈。<br>
-  Adds project, community-group and release-channel links for updates and feedback.
-- 增加卡顿、翻译和下载阶段诊断信息，便于定位问题。<br>
-  Adds performance, translation and download-stage diagnostics to help investigate problems.
+- 修复浏览历史点击后先返回首页、长时间等待才打开帖子的问题，现可直接进入帖子详情。<br>
+  Fixes history entries returning to Home and taking too long to open; entries now open post details directly.
+- 适配 X 12.33.0-prod.01，恢复浏览历史、自动翻译、原图保存、视频下载、最高画质、停止自动连播及广告过滤的新版兼容性。<br>
+  Supports X 12.33.0-prod.01, restoring browsing history, automatic translation, original-image saving, video downloads, highest-quality playback, stop-auto-advance and ad filtering for this version.
 
 ## 功能 / Features
 
@@ -82,8 +74,8 @@ Primary supported X version: `12.32.0-prod.01` (`312320001`).
 
 ## 兼容性 / Compatibility
 
-- 本版主要适配 X 12.32.0-prod.01；其他版本的兼容记录请参阅对应历史 Release。<br>
-  This release targets X 12.32.0-prod.01; see the corresponding past releases for other-version compatibility records.
+- 本版主要适配 X 12.33.0-prod.01；其他版本的兼容记录请参阅对应历史 Release。<br>
+  This release targets X 12.33.0-prod.01; see the corresponding past releases for other-version compatibility records.
 
 每次 X 更新后，我都需要分析变化、构建候选并进行实机验证。<br>
 After each X update, I analyze changes, build candidates, and test on real devices.

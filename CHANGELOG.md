@@ -1,5 +1,12 @@
 # Changelog
 
+## 12.33.0-prod.01（versionCode 62）
+
+- 修复浏览历史点击后先返回首页、长时间等待才打开帖子的问题，现可直接进入帖子详情。<br>
+  Fixes history entries returning to Home and taking too long to open; entries now open post details directly.
+- 适配 X 12.33.0-prod.01，恢复浏览历史、自动翻译、原图保存、视频下载、最高画质、停止自动连播及广告过滤的新版兼容性。<br>
+  Supports X 12.33.0-prod.01, restoring browsing history, automatic translation, original-image saving, video downloads, highest-quality playback, stop-auto-advance and ad filtering for this version.
+
 ## 12.32.0-prod.01（versionCode 61）
 
 - 新增浏览历史全文搜索，支持正文、作者和帖子 ID；优化历史页打开速度。<br>
