@@ -1,5 +1,14 @@
 # Changelog
 
+## 12.33.1-prod.01（versionCode 63）
+
+- 适配 X 12.33.1-prod.01，修复新版最高画质选择。<br>
+  Supports X 12.33.1-prod.01 and fixes highest-quality video selection for this version.
+- 修复“分享排查信息”在日志较多时无响应，改为分享完整文本文件，并附上当前模块、X 版本及导出时间。<br>
+  Fixes unresponsive troubleshooting sharing with large logs by sending a complete text file with current XTQ/X versions and export time.
+- 新增模块界面语言选择：跟随系统、简体中文和 English；设置页显示模块版本，并统一语言弹窗样式。<br>
+  Adds app-language selection: system default, Simplified Chinese and English, plus the module version in Settings and a matching language-dialog style.
+
 ## 12.33.0-prod.01（versionCode 62）
 
 - 修复浏览历史点击后先返回首页、长时间等待才打开帖子的问题，现可直接进入帖子详情。<br>

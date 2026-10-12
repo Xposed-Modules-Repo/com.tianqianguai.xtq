@@ -20,18 +20,20 @@
   If XTQ helps you, please consider leaving a Star. Every Star is meaningful encouragement.
 </p>
 
-当前公开版本：`12.33.0-prod.01`（versionCode 62）。<br>
-Current public release: `12.33.0-prod.01` (versionCode 62).
+当前公开版本：`12.33.1-prod.01`（versionCode 63）。<br>
+Current public release: `12.33.1-prod.01` (versionCode 63).
 
-主要适配版本：X `12.33.0-prod.01`（`312330001`）。<br>
-Primary supported X version: `12.33.0-prod.01` (`312330001`).
+主要适配版本：X `12.33.1-prod.01`（`312331001`）。<br>
+Primary supported X version: `12.33.1-prod.01` (`312331001`).
 
 ## 本版更新 / This release
 
-- 修复浏览历史点击后先返回首页、长时间等待才打开帖子的问题，现可直接进入帖子详情。<br>
-  Fixes history entries returning to Home and taking too long to open; entries now open post details directly.
-- 适配 X 12.33.0-prod.01，恢复浏览历史、自动翻译、原图保存、视频下载、最高画质、停止自动连播及广告过滤的新版兼容性。<br>
-  Supports X 12.33.0-prod.01, restoring browsing history, automatic translation, original-image saving, video downloads, highest-quality playback, stop-auto-advance and ad filtering for this version.
+- 适配 X 12.33.1-prod.01，修复新版最高画质选择。<br>
+  Supports X 12.33.1-prod.01 and fixes highest-quality video selection for this version.
+- 修复“分享排查信息”在日志较多时无响应，改为分享完整文本文件，并附上当前模块、X 版本及导出时间。<br>
+  Fixes unresponsive troubleshooting sharing with large logs by sending a complete text file with current XTQ/X versions and export time.
+- 新增模块界面语言选择：跟随系统、简体中文和 English；设置页显示模块版本，并统一语言弹窗样式。<br>
+  Adds app-language selection: system default, Simplified Chinese and English, plus the module version in Settings and a matching language-dialog style.
 
 ## 功能 / Features
 
@@ -72,10 +74,15 @@ Primary supported X version: `12.33.0-prod.01` (`312330001`).
 - **问题反馈**：诊断信息增加卡顿、翻译和下载阶段的耗时，帮助定位异常。<br>
   **Problem reports**: Diagnostics include performance, translation and download-stage timings to help locate issues.
 
+- **模块界面语言与版本**：可选择跟随系统、简体中文或 English；设置页同时显示 XTQ 与 X 版本，语言选择会保存。<br>
+  **App language and version**: Choose system default, Simplified Chinese or English; Settings shows both XTQ and X versions and retains your language choice.
+- **排查文件分享**：将完整排查信息作为文本文件附件分享，并标注当前安装版本与导出时间，便于区分旧日志。<br>
+  **Troubleshooting files**: Shares a complete text-file attachment labeled with installed versions and export time to distinguish older logs.
+
 ## 兼容性 / Compatibility
 
-- 本版主要适配 X 12.33.0-prod.01；其他版本的兼容记录请参阅对应历史 Release。<br>
-  This release targets X 12.33.0-prod.01; see the corresponding past releases for other-version compatibility records.
+- 本版主要适配 X 12.33.1-prod.01；其他版本的兼容记录请参阅对应历史 Release。<br>
+  This release targets X 12.33.1-prod.01; see the corresponding past releases for other-version compatibility records.
 
 每次 X 更新后，我都需要分析变化、构建候选并进行实机验证。<br>
 After each X update, I analyze changes, build candidates, and test on real devices.
