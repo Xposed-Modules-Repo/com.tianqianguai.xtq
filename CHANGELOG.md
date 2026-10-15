@@ -1,5 +1,12 @@
 # Changelog
 
+## 12.34.0-prod.01（versionCode 64）
+
+- 适配 X 12.34.0-prod.01，恢复浏览历史、自动翻译、原图保存、高清播放、停止自动连播、广告过滤与自动刷新控制的新版兼容性。<br>
+  Supports X 12.34.0-prod.01, restoring compatibility for browsing history, automatic translation, original-image saving, high-quality playback, stop-auto-advance, ad filtering and automatic refresh control.
+- 修复新版视频下载菜单入口；开启 XTQ 视频接管后，有有效下载文件的原生禁止下载视频也可显示下载项。<br>
+  Fixes the video download menu in the new X version; with XTQ takeover enabled, videos that hide native downloads can show a download action when a supported file is available.
+
 ## 12.33.1-prod.01（versionCode 63）
 
 - 适配 X 12.33.1-prod.01，修复新版最高画质选择。<br>

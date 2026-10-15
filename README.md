@@ -15,25 +15,22 @@
   <a href="https://t.me/zhongjitianqianguai3"><img src="https://img.shields.io/badge/Telegram-Release_Channel-26A5E4?style=for-the-badge&logo=telegram&logoColor=white" alt="软件发布频道 / Release Channel"></a>
 </p>
 <p align="center">
-  如果 XTQ 对你有帮助，欢迎点一个 Star。每一颗 Star 都是对我的鼓励 ⭐
-  <br>
-  If XTQ helps you, please consider leaving a Star. Every Star is meaningful encouragement.
+你的 Star 是我持续适配和更新 XTQ 的最大动力。每一颗 Star 都是对我的鼓励！<br>
+Your Star is my biggest motivation to keep XTQ compatible and up to date. Every Star is meaningful encouragement!
 </p>
 
-当前公开版本：`12.33.1-prod.01`（versionCode 63）。<br>
-Current public release: `12.33.1-prod.01` (versionCode 63).
+当前公开版本：`12.34.0-prod.01`（versionCode 64）。<br>
+Current public release: `12.34.0-prod.01` (versionCode 64).
 
-主要适配版本：X `12.33.1-prod.01`（`312331001`）。<br>
-Primary supported X version: `12.33.1-prod.01` (`312331001`).
+主要适配版本：X `12.34.0-prod.01`（`312340001`）。<br>
+Primary supported X version: `12.34.0-prod.01` (`312340001`).
 
 ## 本版更新 / This release
 
-- 适配 X 12.33.1-prod.01，修复新版最高画质选择。<br>
-  Supports X 12.33.1-prod.01 and fixes highest-quality video selection for this version.
-- 修复“分享排查信息”在日志较多时无响应，改为分享完整文本文件，并附上当前模块、X 版本及导出时间。<br>
-  Fixes unresponsive troubleshooting sharing with large logs by sending a complete text file with current XTQ/X versions and export time.
-- 新增模块界面语言选择：跟随系统、简体中文和 English；设置页显示模块版本，并统一语言弹窗样式。<br>
-  Adds app-language selection: system default, Simplified Chinese and English, plus the module version in Settings and a matching language-dialog style.
+- 适配 X 12.34.0-prod.01，恢复浏览历史、自动翻译、原图保存、高清播放、停止自动连播、广告过滤与自动刷新控制的新版兼容性。<br>
+  Supports X 12.34.0-prod.01, restoring compatibility for browsing history, automatic translation, original-image saving, high-quality playback, stop-auto-advance, ad filtering and automatic refresh control.
+- 修复新版视频下载菜单入口；开启 XTQ 视频接管后，有有效下载文件的原生禁止下载视频也可显示下载项。<br>
+  Fixes the video download menu in the new X version; with XTQ takeover enabled, videos that hide native downloads can show a download action when a supported file is available.
 
 ## 功能 / Features
 
@@ -49,8 +46,8 @@ Primary supported X version: `12.33.1-prod.01` (`312331001`).
   **Content filtering**: Hides promoted content, promoted users, video carousels, profile recommendations, and banners; promoted-post filtering also covers nested modules in post details.
 - **视频播放控制**：可选关闭视频播放结束后自动进入下一个视频；该选项与帖子内横向轮播独立，仍可手动切换，默认关闭。<br>
   **Video playback control**: Optionally stops automatic movement to the next video after playback; this is independent of the in-post horizontal carousel, and videos remain switchable manually. It is off by default.
-- **媒体显示选项**：提供敏感媒体显示和高质量视频选项。<br>
-  **Media display options**: Provides sensitive-media display and high-quality video options.
+- **媒体显示选项**：提供敏感媒体显示和高质量视频选项；高清播放优先选择可用的高码率直连源，不改变 X 画质菜单中的“自动”选项文字。<br>
+  **Media display options**: Provides sensitive-media display and high-quality video options. High-quality playback prefers an available higher-bitrate direct source without changing the Auto label in the X quality menu.
 - **设置与反馈**：设置按类别分组并支持展开或收起，调整会自动保存并显示保存反馈；浏览历史入口随 X 语言本地化。<br>
   **Settings and feedback**: Groups settings into collapsible categories, saves changes automatically with save feedback, and localizes the browsing-history entry to X's language.
 - **桌面图标**：可选隐藏 XTQ 的系统桌面图标；仍可从 LSPosed 模块管理中打开 XTQ 设置，默认显示。<br>
@@ -81,12 +78,12 @@ Primary supported X version: `12.33.1-prod.01` (`312331001`).
 
 ## 兼容性 / Compatibility
 
-- 本版主要适配 X 12.33.1-prod.01；其他版本的兼容记录请参阅对应历史 Release。<br>
-  This release targets X 12.33.1-prod.01; see the corresponding past releases for other-version compatibility records.
+- 本版主要适配 X 12.34.0-prod.01；其他版本的兼容记录请参阅对应历史 Release。<br>
+  This release targets X 12.34.0-prod.01; see the corresponding past releases for other-version compatibility records.
 
 每次 X 更新后，我都需要分析变化、构建候选并进行实机验证。<br>
 After each X update, I analyze changes, build candidates, and test on real devices.
 
-如果 XTQ 对你有帮助，欢迎给项目一个 Star。每一颗 Star 都是对我的鼓励。<br>
-If XTQ helps you, please consider starring the project. Every Star is meaningful encouragement.
+你的 Star 是我持续适配和更新 XTQ 的最大动力。每一颗 Star 都是对我的鼓励！<br>
+Your Star is my biggest motivation to keep XTQ compatible and up to date. Every Star is meaningful encouragement!
 https://github.com/Xposed-Modules-Repo/com.tianqianguai.xtq
