@@ -1,5 +1,14 @@
 # Changelog
 
+## 12.35.0-prod.01（versionCode 66）
+
+- 适配 X 12.35.0-prod.01，恢复浏览历史、自动翻译、原图与视频下载、最高画质、停止自动连播、广告过滤及自动刷新控制的新版兼容性。<br>
+  Supports X 12.35.0-prod.01, restoring compatibility for browsing history, automatic translation, original-image and video downloads, highest-quality playback, stop-auto-advance, ad filtering and automatic refresh control.
+- 修复新版侧栏中浏览历史的图标，恢复时钟样式。<br>
+  Fixes the browsing-history icon in the new sidebar, restoring its clock appearance.
+- 改进排查信息，补充模块加载状态与更完整的性能统计，便于定位问题。<br>
+  Improves troubleshooting reports with module loading status and more complete performance statistics to help diagnose issues.
+
 ## 12.34.0-prod.01（versionCode 64）
 
 - 适配 X 12.34.0-prod.01，恢复浏览历史、自动翻译、原图保存、高清播放、停止自动连播、广告过滤与自动刷新控制的新版兼容性。<br>
