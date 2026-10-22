@@ -1,5 +1,12 @@
 # Changelog
 
+## 12.36.1-prod.01（versionCode 68）
+
+- 适配 X 12.36.1-prod.01，恢复浏览历史、自动翻译、原图与视频下载、最高画质、停止自动连播、广告过滤及自动刷新控制的新版兼容性。<br>
+  Supports X 12.36.1-prod.01, restoring compatibility for browsing history, automatic translation, original-image and video downloads, highest-quality playback, stop-auto-advance, ad filtering and automatic refresh control.
+- 改进排查信息分享，准备附件时显示进度提示，并标注日志时间、版本、会话及记录完整性，便于识别旧日志和缺失记录。<br>
+  Improves troubleshooting sharing with preparation feedback and log timestamps, versions, sessions and completeness indicators to identify older or missing records.
+
 ## 12.35.0-prod.01（versionCode 66）
 
 - 适配 X 12.35.0-prod.01，恢复浏览历史、自动翻译、原图与视频下载、最高画质、停止自动连播、广告过滤及自动刷新控制的新版兼容性。<br>
