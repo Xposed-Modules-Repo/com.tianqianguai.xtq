@@ -1,5 +1,16 @@
 # Changelog
 
+## 12.37.2-prod.01（versionCode 70）
+
+- 适配 X 12.37.2-prod.01，更新浏览历史、自动翻译、图库与视频下载、最高画质、停止自动连播、广告过滤和自动刷新控制。<br>
+  Supports X 12.37.2-prod.01 with updated browsing history, automatic translation, gallery and video downloads, highest-quality playback, stop-auto-advance, ad filtering and automatic refresh control.
+- 修复摘要重访覆盖历史全文，以及分享链接净化未写回的问题。<br>
+  Fixes previews overwriting full text in history and link cleanup not being applied to shared intents.
+- 修复部分图片原图地址及自定义命名处理；设置保存失败时保留待保存内容并提示重试。<br>
+  Fixes original-image URLs and custom naming for affected images; unsaved settings are retained with a retry prompt when saving fails.
+- 改进翻译语言判断和下载结果排查信息。<br>
+  Improves translation language detection and troubleshooting details for download outcomes.
+
 ## 12.36.1-prod.01（versionCode 68）
 
 - 适配 X 12.36.1-prod.01，恢复浏览历史、自动翻译、原图与视频下载、最高画质、停止自动连播、广告过滤及自动刷新控制的新版兼容性。<br>
