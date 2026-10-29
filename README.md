@@ -19,22 +19,20 @@
 Your Star is my biggest motivation to keep XTQ compatible and up to date. Every Star is meaningful encouragement!
 </p>
 
-当前公开版本：`12.37.2-prod.01`（versionCode 70）。<br>
-Current public release: `12.37.2-prod.01` (versionCode 70).
+当前公开版本：`12.38.1-prod.01`（versionCode 71）。<br>
+Current public release: `12.38.1-prod.01` (versionCode 71).
 
-主要适配版本：X `12.37.2-prod.01`（`312372001`）。<br>
-Primary supported X version: `12.37.2-prod.01` (`312372001`).
+主要适配版本：X `12.38.1-prod.01`（`312381001`）。<br>
+Primary supported X version: `12.38.1-prod.01` (`312381001`).
 
 ## 本版更新 / This release
 
-- 适配 X 12.37.2-prod.01，更新浏览历史、自动翻译、图库与视频下载、最高画质、停止自动连播、广告过滤和自动刷新控制。<br>
-  Supports X 12.37.2-prod.01 with updated browsing history, automatic translation, gallery and video downloads, highest-quality playback, stop-auto-advance, ad filtering and automatic refresh control.
-- 修复摘要重访覆盖历史全文，以及分享链接净化未写回的问题。<br>
-  Fixes previews overwriting full text in history and link cleanup not being applied to shared intents.
-- 修复部分图片原图地址及自定义命名处理；设置保存失败时保留待保存内容并提示重试。<br>
-  Fixes original-image URLs and custom naming for affected images; unsaved settings are retained with a retry prompt when saving fails.
-- 改进翻译语言判断和下载结果排查信息。<br>
-  Improves translation language detection and troubleshooting details for download outcomes.
+- 适配 X 12.38.1-prod.01，更新浏览历史、自动翻译、原图与视频下载、最高画质、广告过滤和自动刷新控制。<br>
+  Supports X 12.38.1-prod.01 with updated browsing history, automatic translation, original-image and video downloads, highest-quality playback, ad filtering and automatic refresh control.
+- 修复新版视频下载入口与停止自动连播，保留手动切换视频。<br>
+  Fixes the video download entry and stop-auto-advance behavior in the new X version while preserving manual video switching.
+- 修复新版浏览历史的时钟图标，并清理帖子分享链接新增的归因参数。<br>
+  Fixes the browsing-history clock icon in the new X version and removes the new attribution parameter from shared post links.
 
 ## 功能 / Features
 
@@ -82,8 +80,8 @@ Primary supported X version: `12.37.2-prod.01` (`312372001`).
 
 ## 兼容性 / Compatibility
 
-- 本版主要适配 X 12.36.1-prod.01；其他版本的兼容记录请参阅对应历史 Release。<br>
-  This release targets X 12.36.1-prod.01; see the corresponding past releases for other-version compatibility records.
+- 本版主要适配 X 12.38.1-prod.01；其他版本的兼容记录请参阅对应历史 Release。<br>
+  This release targets X 12.38.1-prod.01; see the corresponding past releases for other-version compatibility records.
 
 每次 X 更新后，我都需要分析变化、构建候选并进行实机验证。<br>
 After each X update, I analyze changes, build candidates, and test on real devices.

@@ -1,5 +1,14 @@
 # Changelog
 
+## 12.38.1-prod.01（versionCode 71）
+
+- 适配 X 12.38.1-prod.01，更新浏览历史、自动翻译、原图与视频下载、最高画质、广告过滤和自动刷新控制。<br>
+  Supports X 12.38.1-prod.01 with updated browsing history, automatic translation, original-image and video downloads, highest-quality playback, ad filtering and automatic refresh control.
+- 修复新版视频下载入口与停止自动连播，保留手动切换视频。<br>
+  Fixes the video download entry and stop-auto-advance behavior in the new X version while preserving manual video switching.
+- 修复新版浏览历史的时钟图标，并清理帖子分享链接新增的归因参数。<br>
+  Fixes the browsing-history clock icon in the new X version and removes the new attribution parameter from shared post links.
+
 ## 12.37.2-prod.01（versionCode 70）
 
 - 适配 X 12.37.2-prod.01，更新浏览历史、自动翻译、图库与视频下载、最高画质、停止自动连播、广告过滤和自动刷新控制。<br>
