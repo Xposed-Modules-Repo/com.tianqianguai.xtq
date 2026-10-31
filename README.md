@@ -19,20 +19,18 @@
 Your Star is my biggest motivation to keep XTQ compatible and up to date. Every Star is meaningful encouragement!
 </p>
 
-当前公开版本：`12.38.1-prod.01`（versionCode 71）。<br>
-Current public release: `12.38.1-prod.01` (versionCode 71).
+当前公开版本：`12.39.0-prod.01`（versionCode 72）。<br>
+Current public release: `12.39.0-prod.01` (versionCode 72).
 
-主要适配版本：X `12.38.1-prod.01`（`312381001`）。<br>
-Primary supported X version: `12.38.1-prod.01` (`312381001`).
+主要适配版本：X `12.39.0-prod.01`（`312390001`）。<br>
+Primary supported X version: `12.39.0-prod.01` (`312390001`).
 
 ## 本版更新 / This release
 
-- 适配 X 12.38.1-prod.01，更新浏览历史、自动翻译、原图与视频下载、最高画质、广告过滤和自动刷新控制。<br>
-  Supports X 12.38.1-prod.01 with updated browsing history, automatic translation, original-image and video downloads, highest-quality playback, ad filtering and automatic refresh control.
-- 修复新版视频下载入口与停止自动连播，保留手动切换视频。<br>
-  Fixes the video download entry and stop-auto-advance behavior in the new X version while preserving manual video switching.
-- 修复新版浏览历史的时钟图标，并清理帖子分享链接新增的归因参数。<br>
-  Fixes the browsing-history clock icon in the new X version and removes the new attribution parameter from shared post links.
+- 适配 X 12.39.0-prod.01，更新浏览历史、自动翻译、原图与视频下载、最高画质、停止自动连播、广告过滤和自动刷新控制。<br>
+  Supports X 12.39.0-prod.01 with updated browsing history, automatic translation, original-image and video downloads, highest-quality playback, stop-auto-advance, ad filtering and automatic refresh control.
+- 修复新版视频与 GIF 下载的媒体识别，恢复侧栏浏览历史入口及其时钟图标。<br>
+  Fixes media recognition for video and GIF downloads in the new X version and restores the browsing-history sidebar entry and its clock icon.
 
 ## 功能 / Features
 
@@ -80,8 +78,8 @@ Primary supported X version: `12.38.1-prod.01` (`312381001`).
 
 ## 兼容性 / Compatibility
 
-- 本版主要适配 X 12.38.1-prod.01；其他版本的兼容记录请参阅对应历史 Release。<br>
-  This release targets X 12.38.1-prod.01; see the corresponding past releases for other-version compatibility records.
+- 本版主要适配 X 12.39.0-prod.01；其他版本的兼容记录请参阅对应历史 Release。<br>
+  This release targets X 12.39.0-prod.01; see the corresponding past releases for other-version compatibility records.
 
 每次 X 更新后，我都需要分析变化、构建候选并进行实机验证。<br>
 After each X update, I analyze changes, build candidates, and test on real devices.

@@ -1,5 +1,12 @@
 # Changelog
 
+## 12.39.0-prod.01（versionCode 72）
+
+- 适配 X 12.39.0-prod.01，更新浏览历史、自动翻译、原图与视频下载、最高画质、停止自动连播、广告过滤和自动刷新控制。<br>
+  Supports X 12.39.0-prod.01 with updated browsing history, automatic translation, original-image and video downloads, highest-quality playback, stop-auto-advance, ad filtering and automatic refresh control.
+- 修复新版视频与 GIF 下载的媒体识别，恢复侧栏浏览历史入口及其时钟图标。<br>
+  Fixes media recognition for video and GIF downloads in the new X version and restores the browsing-history sidebar entry and its clock icon.
+
 ## 12.38.1-prod.01（versionCode 71）
 
 - 适配 X 12.38.1-prod.01，更新浏览历史、自动翻译、原图与视频下载、最高画质、广告过滤和自动刷新控制。<br>
