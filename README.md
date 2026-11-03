@@ -19,18 +19,22 @@
 Your Star is my biggest motivation to keep XTQ compatible and up to date. Every Star is meaningful encouragement!
 </p>
 
-当前公开版本：`12.39.0-prod.01`（versionCode 72）。<br>
-Current public release: `12.39.0-prod.01` (versionCode 72).
+当前公开版本：`12.40.0-prod.01`（versionCode 73）。<br>
+Current public release: `12.40.0-prod.01` (versionCode 73).
 
-主要适配版本：X `12.39.0-prod.01`（`312390001`）。<br>
-Primary supported X version: `12.39.0-prod.01` (`312390001`).
+主要适配版本：X `12.40.0-prod.01`（`312400001`）。<br>
+Primary supported X version: `12.40.0-prod.01` (`312400001`).
 
 ## 本版更新 / This release
 
-- 适配 X 12.39.0-prod.01，更新浏览历史、自动翻译、原图与视频下载、最高画质、停止自动连播、广告过滤和自动刷新控制。<br>
-  Supports X 12.39.0-prod.01 with updated browsing history, automatic translation, original-image and video downloads, highest-quality playback, stop-auto-advance, ad filtering and automatic refresh control.
-- 修复新版视频与 GIF 下载的媒体识别，恢复侧栏浏览历史入口及其时钟图标。<br>
-  Fixes media recognition for video and GIF downloads in the new X version and restores the browsing-history sidebar entry and its clock icon.
+- 适配 X 12.40.0-prod.01，更新浏览历史、自动翻译、原图与视频下载、最高画质、停止自动连播、广告过滤和自动刷新控制。<br>
+  Supports X 12.40.0-prod.01 with updated browsing history, automatic translation, original-image and video downloads, highest-quality playback, stop-auto-advance, ad filtering and automatic refresh control.
+- 修复新版原图识别、媒体浏览历史记录及详情页广告过滤。<br>
+  Fixes original-image recognition, media browsing-history recording and ad filtering in post details for the new X version.
+- 新增已完成译文复用，减少进入详情、查看图片或视频以及切页返回时的重复自动翻译；保留原文切换与目标语言选择。<br>
+  Reuses completed translations to reduce repeated automatic translation when opening details, viewing images or videos, and returning from other pages; original-text and target-language choices remain available.
+- 新增版本不匹配警示，在设置中标明适配版本与当前 X 版本，提醒匹配版本后再反馈。<br>
+  Adds a version-mismatch warning in Settings showing the supported and installed X versions, with a reminder to match versions before reporting issues.
 
 ## 功能 / Features
 
@@ -42,6 +46,8 @@ Primary supported X version: `12.39.0-prod.01` (`312390001`).
   **Original images and media downloads**: Adds “Save original” and multi-image “Save all” actions, with separate controls for image buttons and video/GIF download takeover. Images saved through XTQ use its custom folders and filenames; default settings retain X's native image saving. Video and GIF downloads prefer the highest-bitrate non-HLS direct variant. With takeover enabled, eligible videos with a supported file gain a download action even when the native menu hides it.
 - **原生翻译增强**：复用 X 原生翻译自动处理符合条件的短帖和回复，在自动翻译结果中保留原文；目标语言默认跟随 X，也可明确选择固定语言。空正文会跳过，待处理内容会及时刷新，手动翻译路径保持不变。<br>
   **Native translation enhancements**: Reuses X's native translation flow to automatically translate eligible short posts and replies while preserving the original text; the target follows X by default or can be set explicitly. Empty bodies are skipped and pending work is refreshed promptly; manual translation remains unchanged.
+- **译文复用**：在同次 X 运行中，复用同帖、同正文、同目标语言已完成的自动译文；已完成结果可直接用于重建后的页面。正文或目标语言变化时分别处理，手动显示原文仍然有效。<br>
+  **Translation reuse**: During the same X process, completed automatic translations can be reused for the same post, text and target language after page recreation. Changed text or target languages are handled separately, and manual original-text display remains available.
 - **内容过滤**：隐藏推广内容、推广用户、视频轮播、资料推荐和横幅；广告帖子过滤覆盖帖子详情中的嵌套模块。<br>
   **Content filtering**: Hides promoted content, promoted users, video carousels, profile recommendations, and banners; promoted-post filtering also covers nested modules in post details.
 - **视频播放控制**：可选关闭视频播放结束后自动进入下一个视频；该选项与帖子内横向轮播独立，仍可手动切换，默认关闭。<br>
@@ -66,6 +72,8 @@ Primary supported X version: `12.39.0-prod.01` (`312390001`).
 - **Re:X 共存**：可选“优先使用 Re:X”，默认关闭；让出指定重叠功能并隐藏对应设置，原设置值仍保留。浏览历史、翻译、XTQ 图片保存、最高画质和停止自动连播仍由 XTQ 控制。Re:X 视频下载的目录与命名由 Re:X 配置；此选项不会自动启用 Re:X 或修改其配置。<br>
   **Re:X coexistence**: Optional “Prefer Re:X” mode is off by default. It yields selected overlapping features and hides their controls while preserving saved values. Browsing history, translation, XTQ image saving, highest-quality playback and stop-auto-advance remain under XTQ control. Re:X manages its own video download folders and filenames; this option does not enable Re:X or modify its configuration.
 
+- **版本提醒**：XTQ 与 X 版本不匹配时在现有版本卡片显示红色加粗提示，不禁用功能。<br>
+  **Version warning**: Displays a bold red warning in the version card when XTQ and X versions differ, without disabling features.
 - **社区与更新**：设置内提供项目主页、交流群和发布频道入口。<br>
   **Community and updates**: Settings link to the project, community group and release channel.
 - **问题反馈**：诊断信息包含模块加载状态、卡顿、翻译和下载阶段的耗时及性能统计，帮助定位异常。<br>
@@ -78,8 +86,8 @@ Primary supported X version: `12.39.0-prod.01` (`312390001`).
 
 ## 兼容性 / Compatibility
 
-- 本版主要适配 X 12.39.0-prod.01；其他版本的兼容记录请参阅对应历史 Release。<br>
-  This release targets X 12.39.0-prod.01; see the corresponding past releases for other-version compatibility records.
+- 本版主要适配 X 12.40.0-prod.01；其他版本的兼容记录请参阅对应历史 Release。<br>
+  This release targets X 12.40.0-prod.01; see the corresponding past releases for other-version compatibility records.
 
 每次 X 更新后，我都需要分析变化、构建候选并进行实机验证。<br>
 After each X update, I analyze changes, build candidates, and test on real devices.

@@ -1,5 +1,16 @@
 # Changelog
 
+## 12.40.0-prod.01（versionCode 73）
+
+- 适配 X 12.40.0-prod.01，更新浏览历史、自动翻译、原图与视频下载、最高画质、停止自动连播、广告过滤和自动刷新控制。<br>
+  Supports X 12.40.0-prod.01 with updated browsing history, automatic translation, original-image and video downloads, highest-quality playback, stop-auto-advance, ad filtering and automatic refresh control.
+- 修复新版原图识别、媒体浏览历史记录及详情页广告过滤。<br>
+  Fixes original-image recognition, media browsing-history recording and ad filtering in post details for the new X version.
+- 新增已完成译文复用，减少进入详情、查看图片或视频以及切页返回时的重复自动翻译；保留原文切换与目标语言选择。<br>
+  Reuses completed translations to reduce repeated automatic translation when opening details, viewing images or videos, and returning from other pages; original-text and target-language choices remain available.
+- 新增版本不匹配警示，在设置中标明适配版本与当前 X 版本，提醒匹配版本后再反馈。<br>
+  Adds a version-mismatch warning in Settings showing the supported and installed X versions, with a reminder to match versions before reporting issues.
+
 ## 12.39.0-prod.01（versionCode 72）
 
 - 适配 X 12.39.0-prod.01，更新浏览历史、自动翻译、原图与视频下载、最高画质、停止自动连播、广告过滤和自动刷新控制。<br>
