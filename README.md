@@ -19,22 +19,18 @@
 Your Star is my biggest motivation to keep XTQ compatible and up to date. Every Star is meaningful encouragement!
 </p>
 
-当前公开版本：`12.40.0-prod.01`（versionCode 73）。<br>
-Current public release: `12.40.0-prod.01` (versionCode 73).
+当前公开版本：`12.41.0-prod.01`（versionCode 74）。<br>
+Current public release: `12.41.0-prod.01` (versionCode 74).
 
-主要适配版本：X `12.40.0-prod.01`（`312400001`）。<br>
-Primary supported X version: `12.40.0-prod.01` (`312400001`).
+主要适配版本：X `12.41.0-prod.01`（`312410001`）。<br>
+Primary supported X version: `12.41.0-prod.01` (`312410001`).
 
 ## 本版更新 / This release
 
-- 适配 X 12.40.0-prod.01，更新浏览历史、自动翻译、原图与视频下载、最高画质、停止自动连播、广告过滤和自动刷新控制。<br>
-  Supports X 12.40.0-prod.01 with updated browsing history, automatic translation, original-image and video downloads, highest-quality playback, stop-auto-advance, ad filtering and automatic refresh control.
-- 修复新版原图识别、媒体浏览历史记录及详情页广告过滤。<br>
-  Fixes original-image recognition, media browsing-history recording and ad filtering in post details for the new X version.
-- 新增已完成译文复用，减少进入详情、查看图片或视频以及切页返回时的重复自动翻译；保留原文切换与目标语言选择。<br>
-  Reuses completed translations to reduce repeated automatic translation when opening details, viewing images or videos, and returning from other pages; original-text and target-language choices remain available.
-- 新增版本不匹配警示，在设置中标明适配版本与当前 X 版本，提醒匹配版本后再反馈。<br>
-  Adds a version-mismatch warning in Settings showing the supported and installed X versions, with a reminder to match versions before reporting issues.
+- 适配 X 12.41.0-prod.01，更新浏览历史、自动翻译、原图保存与视频/GIF 下载、最高画质、停止自动连播、广告过滤及自动刷新控制等既有功能。<br>
+  Updates existing features for X 12.41.0-prod.01, including browsing history, automatic translation, original-image saving and video/GIF downloads, highest-quality playback, stop-auto-advance, ad filtering, and automatic refresh control.
+- 新增默认关闭的“跟随 X 深色模式”开关，让 XTQ 设置页与浏览历史跟随 X 当前外观；即使 X 与系统外观不同也跟随 X。关闭时仍保留原有跟随系统行为。<br>
+  Adds an off-by-default “Follow X light/dark theme” switch for the XTQ Settings and Browsing history screens. It follows the active appearance selected in X even when it differs from the system; when off, the existing follow-system behavior remains.
 
 ## 功能 / Features
 
@@ -56,6 +52,11 @@ Primary supported X version: `12.40.0-prod.01` (`312400001`).
   **Media display options**: Provides sensitive-media display and high-quality video options. High-quality playback prefers an available higher-bitrate direct source without changing the Auto label in the X quality menu.
 - **设置与反馈**：设置按类别分组并支持展开或收起，调整会自动保存并显示保存反馈；浏览历史入口随 X 语言本地化。<br>
   **Settings and feedback**: Groups settings into collapsible categories, saves changes automatically with save feedback, and localizes the browsing-history entry to X's language.
+- **界面主题**：可选让 XTQ 设置页与浏览历史跟随 X 当前深浅色外观，即使 X 与系统外观不同也跟随 X；默认关闭，关闭后继续跟随系统。<br>
+  **Theme appearance**: XTQ Settings and browsing history can optionally follow the active light/dark appearance selected in X, even when it differs from the system. Off by default; when off, they continue to follow the system.
+
+首次使用主题同步时，请打开 XTQ 设置，再返回 X。<br>
+To sync the theme for the first time, open XTQ Settings and then return to X.
 - **桌面图标**：可选隐藏 XTQ 的系统桌面图标；仍可从 LSPosed 模块管理中打开 XTQ 设置，默认显示。<br>
   **Launcher icon**: Optionally hides the XTQ icon from the system launcher; XTQ settings remain available from the LSPosed module manager, and the icon is shown by default.
 - **动态适配与兼容性回退**：功能开关、媒体字段、帖子和作者读取支持经过校验的动态识别与缓存回退；不匹配时保留 X 原生行为。此能力不代表所有功能或未来 X 版本均能自动兼容。<br>
@@ -86,8 +87,8 @@ Primary supported X version: `12.40.0-prod.01` (`312400001`).
 
 ## 兼容性 / Compatibility
 
-- 本版主要适配 X 12.40.0-prod.01；其他版本的兼容记录请参阅对应历史 Release。<br>
-  This release targets X 12.40.0-prod.01; see the corresponding past releases for other-version compatibility records.
+- 本版主要适配 X 12.41.0-prod.01；其他版本的兼容记录请参阅对应历史 Release。<br>
+  This release targets X 12.41.0-prod.01; see the corresponding past releases for other-version compatibility records.
 
 每次 X 更新后，我都需要分析变化、构建候选并进行实机验证。<br>
 After each X update, I analyze changes, build candidates, and test on real devices.

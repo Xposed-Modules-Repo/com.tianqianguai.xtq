@@ -1,5 +1,12 @@
 # Changelog
 
+## 12.41.0-prod.01（versionCode 74）
+
+- 适配 X 12.41.0-prod.01，更新浏览历史、自动翻译、原图保存与视频/GIF 下载、最高画质、停止自动连播、广告过滤及自动刷新控制等既有功能。<br>
+  Updates existing features for X 12.41.0-prod.01, including browsing history, automatic translation, original-image saving and video/GIF downloads, highest-quality playback, stop-auto-advance, ad filtering, and automatic refresh control.
+- 新增默认关闭的“跟随 X 深色模式”开关，让 XTQ 设置页与浏览历史跟随 X 当前外观；即使 X 与系统外观不同也跟随 X。关闭时仍保留原有跟随系统行为。<br>
+  Adds an off-by-default “Follow X light/dark theme” switch for the XTQ Settings and Browsing history screens. It follows the active appearance selected in X even when it differs from the system; when off, the existing follow-system behavior remains.
+
 ## 12.40.0-prod.01（versionCode 73）
 
 - 适配 X 12.40.0-prod.01，更新浏览历史、自动翻译、原图与视频下载、最高画质、停止自动连播、广告过滤和自动刷新控制。<br>
