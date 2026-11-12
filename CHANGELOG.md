@@ -1,5 +1,14 @@
 # Changelog
 
+## 12.42.0-prod.01（versionCode 76）
+
+- 适配 X 12.42.0-prod.01，继续支持浏览历史、自动翻译、媒体保存和播放控制等既有功能。<br>
+  Supports X 12.42.0-prod.01 with existing features including browsing history, automatic translation, media saving, and playback controls.
+- 修复侧栏「浏览历史」的时钟图标。<br>
+  Fixes the clock icon next to Browsing History in the sidebar.
+- 修复部分视频的播放菜单缺少「下载视频」入口的问题。<br>
+  Restores the Download Video option in the playback menu for affected videos.
+
 ## 12.41.0-prod.01（versionCode 74）
 
 - 适配 X 12.41.0-prod.01，更新浏览历史、自动翻译、原图保存与视频/GIF 下载、最高画质、停止自动连播、广告过滤及自动刷新控制等既有功能。<br>
