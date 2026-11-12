@@ -1,12 +1,5 @@
 # Changelog
 
-## 12.42.0-prod.01（versionCode 75）
-
-- 适配 X 12.42.0-prod.01，浏览历史、自动翻译、原图保存、视频与 GIF 下载、最高画质、停止自动连播、广告过滤及自动刷新控制等既有功能继续可用。<br>
-  Supports X 12.42.0-prod.01, keeping existing features available, including browsing history, automatic translation, original-image saving, video and GIF downloads, highest-quality playback, stop-auto-advance, ad filtering, and automatic refresh control.
-- XTQ 设置与浏览历史继续支持跟随 X 或系统主题。<br>
-  XTQ Settings and Browsing History can still follow the X or system theme.
-
 ## 12.41.0-prod.01（versionCode 74）
 
 - 适配 X 12.41.0-prod.01，更新浏览历史、自动翻译、原图保存与视频/GIF 下载、最高画质、停止自动连播、广告过滤及自动刷新控制等既有功能。<br>
