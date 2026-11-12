@@ -19,18 +19,18 @@
 Your Star is my biggest motivation to keep XTQ compatible and up to date. Every Star is meaningful encouragement!
 </p>
 
-当前公开版本：`12.41.0-prod.01`（versionCode 74）。<br>
-Current public release: `12.41.0-prod.01` (versionCode 74).
+当前公开版本：`12.42.0-prod.01`（versionCode 75）。<br>
+Current public release: `12.42.0-prod.01` (versionCode 75).
 
-主要适配版本：X `12.41.0-prod.01`（`312410001`）。<br>
-Primary supported X version: `12.41.0-prod.01` (`312410001`).
+主要适配版本：X `12.42.0-prod.01`（`312420001`）。<br>
+Primary supported X version: `12.42.0-prod.01` (`312420001`).
 
 ## 本版更新 / This release
 
-- 适配 X 12.41.0-prod.01，更新浏览历史、自动翻译、原图保存与视频/GIF 下载、最高画质、停止自动连播、广告过滤及自动刷新控制等既有功能。<br>
-  Updates existing features for X 12.41.0-prod.01, including browsing history, automatic translation, original-image saving and video/GIF downloads, highest-quality playback, stop-auto-advance, ad filtering, and automatic refresh control.
-- 新增默认关闭的“跟随 X 深色模式”开关，让 XTQ 设置页与浏览历史跟随 X 当前外观；即使 X 与系统外观不同也跟随 X。关闭时仍保留原有跟随系统行为。<br>
-  Adds an off-by-default “Follow X light/dark theme” switch for the XTQ Settings and Browsing history screens. It follows the active appearance selected in X even when it differs from the system; when off, the existing follow-system behavior remains.
+- 适配 X 12.42.0-prod.01，浏览历史、自动翻译、原图保存、视频与 GIF 下载、最高画质、停止自动连播、广告过滤及自动刷新控制等既有功能继续可用。<br>
+  Supports X 12.42.0-prod.01, keeping existing features available, including browsing history, automatic translation, original-image saving, video and GIF downloads, highest-quality playback, stop-auto-advance, ad filtering, and automatic refresh control.
+- XTQ 设置与浏览历史继续支持跟随 X 或系统主题。<br>
+  XTQ Settings and Browsing History can still follow the X or system theme.
 
 ## 功能 / Features
 
@@ -87,8 +87,8 @@ To sync the theme for the first time, open XTQ Settings and then return to X.
 
 ## 兼容性 / Compatibility
 
-- 本版主要适配 X 12.41.0-prod.01；其他版本的兼容记录请参阅对应历史 Release。<br>
-  This release targets X 12.41.0-prod.01; see the corresponding past releases for other-version compatibility records.
+- 本版主要适配 X 12.42.0-prod.01；其他版本的兼容记录请参阅对应历史 Release。<br>
+  This release targets X 12.42.0-prod.01; see the corresponding past releases for other-version compatibility records.
 
 每次 X 更新后，我都需要分析变化、构建候选并进行实机验证。<br>
 After each X update, I analyze changes, build candidates, and test on real devices.
