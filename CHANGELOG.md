@@ -1,5 +1,20 @@
 # Changelog
 
+## 12.44.0-prod.01（versionCode 77）
+
+- 适配 X 12.44.0-prod.01。<br>
+  Supports X 12.44.0-prod.01.
+- 从浏览历史打开帖子后，返回直接恢复历史列表及滚动位置，修复手势返回时的首页闪现。<br>
+  Returning from a post opened in Browsing History restores the list and scroll position without flashing the Home timeline.
+- 修复自动翻译后回复原文开头多出被回复用户名的问题。<br>
+  Removes the extra reply-recipient username from the start of the original text shown with automatic translations.
+- 修复头像原图下载失败。使用自定义命名或目录保存图片时直接下载。<br>
+  Fixes original avatar downloads. Images save directly with custom filenames or folders.
+- 支持将已结束的未加密、连续 MPEG-TS 直播回放下载为 .ts 文件。<br>
+  Adds .ts downloads for ended broadcasts with continuous unencrypted MPEG-TS replays.
+- 更新可选的媒体下载弹窗样式。<br>
+  Refreshes the optional media download dialog.
+
 ## 12.42.0-prod.01（versionCode 76）
 
 - 适配 X 12.42.0-prod.01，继续支持浏览历史、自动翻译、媒体保存和播放控制等既有功能。<br>

@@ -19,20 +19,26 @@
 Your Star is my biggest motivation to keep XTQ compatible and up to date. Every Star is meaningful encouragement!
 </p>
 
-当前公开版本：`12.42.0-prod.01`（versionCode 76）。<br>
-Current public release: `12.42.0-prod.01` (versionCode 76).
+当前公开版本：`12.44.0-prod.01`（versionCode 77）。<br>
+Current public release: `12.44.0-prod.01` (versionCode 77).
 
-主要适配版本：X `12.42.0-prod.01`（`312420001`）。<br>
-Primary supported X version: `12.42.0-prod.01` (`312420001`).
+主要适配版本：X `12.44.0-prod.01`（`312440001`）。<br>
+Primary supported X version: `12.44.0-prod.01` (`312440001`).
 
 ## 本版更新 / This release
 
-- 适配 X 12.42.0-prod.01，继续支持浏览历史、自动翻译、媒体保存和播放控制等既有功能。<br>
-  Supports X 12.42.0-prod.01 with existing features including browsing history, automatic translation, media saving, and playback controls.
-- 修复侧栏「浏览历史」的时钟图标。<br>
-  Fixes the clock icon next to Browsing History in the sidebar.
-- 修复部分视频的播放菜单缺少「下载视频」入口的问题。<br>
-  Restores the Download Video option in the playback menu for affected videos.
+- 适配 X 12.44.0-prod.01。<br>
+  Supports X 12.44.0-prod.01.
+- 从浏览历史打开帖子后，返回直接恢复历史列表及滚动位置，修复手势返回时的首页闪现。<br>
+  Returning from a post opened in Browsing History restores the list and scroll position without flashing the Home timeline.
+- 修复自动翻译后回复原文开头多出被回复用户名的问题。<br>
+  Removes the extra reply-recipient username from the start of the original text shown with automatic translations.
+- 修复头像原图下载失败。使用自定义命名或目录保存图片时直接下载。<br>
+  Fixes original avatar downloads. Images save directly with custom filenames or folders.
+- 支持将已结束的未加密、连续 MPEG-TS 直播回放下载为 .ts 文件。<br>
+  Adds .ts downloads for ended broadcasts with continuous unencrypted MPEG-TS replays.
+- 更新可选的媒体下载弹窗样式。<br>
+  Refreshes the optional media download dialog.
 
 ## 功能 / Features
 
@@ -42,6 +48,8 @@ Primary supported X version: `12.42.0-prod.01` (`312420001`).
   **Link cleanup**: Cleans tracking parameters from X links copied, shared, or opened in the app, with selectable and configurable share domains.
 - **原图与媒体下载**：图片查看页提供“保存原图”和多图“全部保存”，图片按钮与视频/GIF 下载接管分别控制；XTQ 管理的图片保存使用自定义目录和命名，默认配置保留 X 原生图片保存行为。视频与 GIF 下载优先选择非 HLS 最高码率直链；开启视频接管时，为原生隐藏下载项且有有效下载文件的视频补出入口。<br>
   **Original images and media downloads**: Adds “Save original” and multi-image “Save all” actions, with separate controls for image buttons and video/GIF download takeover. Images saved through XTQ use its custom folders and filenames; default settings retain X's native image saving. Video and GIF downloads prefer the highest-bitrate non-HLS direct variant. With takeover enabled, eligible videos with a supported file gain a download action even when the native menu hides it.
+- **直播回放下载**：视频下载由 XTQ 接管时，可将已结束的未加密、连续 MPEG-TS 直播回放保存为 `.ts` 文件。<br>
+  **Broadcast replay downloads**: When XTQ handles video downloads, saves ended broadcasts with continuous unencrypted MPEG-TS replays as `.ts` files.
 - **原生翻译增强**：复用 X 原生翻译自动处理符合条件的短帖和回复，在自动翻译结果中保留原文；目标语言默认跟随 X，也可明确选择固定语言。空正文会跳过，待处理内容会及时刷新，手动翻译路径保持不变。<br>
   **Native translation enhancements**: Reuses X's native translation flow to automatically translate eligible short posts and replies while preserving the original text; the target follows X by default or can be set explicitly. Empty bodies are skipped and pending work is refreshed promptly; manual translation remains unchanged.
 - **译文复用**：在同次 X 运行中，复用同帖、同正文、同目标语言已完成的自动译文；已完成结果可直接用于重建后的页面。正文或目标语言变化时分别处理，手动显示原文仍然有效。<br>
@@ -89,8 +97,8 @@ To sync the theme for the first time, open XTQ Settings and then return to X.
 
 ## 兼容性 / Compatibility
 
-- 本版主要适配 X 12.42.0-prod.01；其他版本的兼容记录请参阅对应历史 Release。<br>
-  This release targets X 12.42.0-prod.01; see the corresponding past releases for other-version compatibility records.
+- 本版主要适配 X 12.44.0-prod.01；其他版本的兼容记录请参阅对应历史 Release。<br>
+  This release targets X 12.44.0-prod.01; see the corresponding past releases for other-version compatibility records.
 
 每次 X 更新后，我都需要分析变化、构建候选并进行实机验证。<br>
 After each X update, I analyze changes, build candidates, and test on real devices.
