@@ -19,26 +19,20 @@
 Your Star is my biggest motivation to keep XTQ compatible and up to date. Every Star is meaningful encouragement!
 </p>
 
-当前公开版本：`12.44.0-prod.01`（versionCode 77）。<br>
-Current public release: `12.44.0-prod.01` (versionCode 77).
+当前公开版本：`12.45.1-prod.01`（versionCode 78）。<br>
+Current public release: `12.45.1-prod.01` (versionCode 78).
 
-主要适配版本：X `12.44.0-prod.01`（`312440001`）。<br>
-Primary supported X version: `12.44.0-prod.01` (`312440001`).
+主要适配版本：X `12.45.1-prod.01`（`312451001`）。<br>
+Primary supported X version: `12.45.1-prod.01` (`312451001`).
 
 ## 本版更新 / This release
 
-- 适配 X 12.44.0-prod.01。<br>
-  Supports X 12.44.0-prod.01.
-- 从浏览历史打开帖子后，返回直接恢复历史列表及滚动位置，修复手势返回时的首页闪现。<br>
-  Returning from a post opened in Browsing History restores the list and scroll position without flashing the Home timeline.
-- 修复自动翻译后回复原文开头多出被回复用户名的问题。<br>
-  Removes the extra reply-recipient username from the start of the original text shown with automatic translations.
-- 修复头像原图下载失败。使用自定义命名或目录保存图片时直接下载。<br>
-  Fixes original avatar downloads. Images save directly with custom filenames or folders.
-- 支持将已结束的未加密、连续 MPEG-TS 直播回放下载为 .ts 文件。<br>
-  Adds .ts downloads for ended broadcasts with continuous unencrypted MPEG-TS replays.
-- 更新可选的媒体下载弹窗样式。<br>
-  Refreshes the optional media download dialog.
+- 适配 X 12.45.1-prod.01。<br>
+  Supports X 12.45.1-prod.01.
+- 分享用的诊断文件会自动清理过期缓存，并限制缓存数量和大小。<br>
+  XTQ now clears expired cached troubleshooting attachments and caps their number and size.
+- 为了方便那些一直找历史版本的人，附上对应版本 X。<br>
+  For anyone looking for older versions, I’ve included the matching X build.
 
 ## 功能 / Features
 
@@ -97,8 +91,8 @@ To sync the theme for the first time, open XTQ Settings and then return to X.
 
 ## 兼容性 / Compatibility
 
-- 本版主要适配 X 12.44.0-prod.01；其他版本的兼容记录请参阅对应历史 Release。<br>
-  This release targets X 12.44.0-prod.01; see the corresponding past releases for other-version compatibility records.
+- 本版主要适配 X 12.45.1-prod.01；其他版本的兼容记录请参阅对应历史 Release。<br>
+  This release targets X 12.45.1-prod.01; see the corresponding past releases for other-version compatibility records.
 
 每次 X 更新后，我都需要分析变化、构建候选并进行实机验证。<br>
 After each X update, I analyze changes, build candidates, and test on real devices.

@@ -1,5 +1,14 @@
 # Changelog
 
+## 12.45.1-prod.01（versionCode 78）
+
+- 适配 X 12.45.1-prod.01。<br>
+  Supports X 12.45.1-prod.01.
+- 分享用的诊断文件会自动清理过期缓存，并限制缓存数量和大小。<br>
+  XTQ now clears expired cached troubleshooting attachments and caps their number and size.
+- 为了方便那些一直找历史版本的人，附上对应版本 X。<br>
+  For anyone looking for older versions, I’ve included the matching X build.
+
 ## 12.44.0-prod.01（versionCode 77）
 
 - 适配 X 12.44.0-prod.01。<br>
