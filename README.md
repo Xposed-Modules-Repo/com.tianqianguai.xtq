@@ -31,8 +31,6 @@ Primary supported X version: `12.46.1-prod.01` (`312461001`).
   Supports X 12.46.1-prod.01.
 - 修复部分帖子没有自动翻译，以及首页译文进入帖子详情后消失的问题。<br>
   Fixed missing automatic translations on some posts and translations disappearing when opening a post from Home.
-- 为了方便那些一直找历史版本的人，附上对应版本 X 的 ARM64 分包。<br>
-  For anyone looking for older versions, I've included the matching ARM64 X split APKs.
 
 ## 功能 / Features
 
