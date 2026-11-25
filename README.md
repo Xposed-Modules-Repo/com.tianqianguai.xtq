@@ -19,20 +19,20 @@
 Your Star is my biggest motivation to keep XTQ compatible and up to date. Every Star is meaningful encouragement!
 </p>
 
-当前公开版本：`12.45.1-prod.01`（versionCode 78）。<br>
-Current public release: `12.45.1-prod.01` (versionCode 78).
+当前公开版本：`12.46.1-prod.01`（versionCode 79）。<br>
+Current public release: `12.46.1-prod.01` (versionCode 79).
 
-主要适配版本：X `12.45.1-prod.01`（`312451001`）。<br>
-Primary supported X version: `12.45.1-prod.01` (`312451001`).
+主要适配版本：X `12.46.1-prod.01`（`312461001`）。<br>
+Primary supported X version: `12.46.1-prod.01` (`312461001`).
 
 ## 本版更新 / This release
 
-- 适配 X 12.45.1-prod.01。<br>
-  Supports X 12.45.1-prod.01.
-- 分享用的诊断文件会自动清理过期缓存，并限制缓存数量和大小。<br>
-  XTQ now clears expired cached troubleshooting attachments and caps their number and size.
-- 为了方便那些一直找历史版本的人，附上对应版本 X。<br>
-  For anyone looking for older versions, I’ve included the matching X build.
+- 适配 X 12.46.1-prod.01。<br>
+  Supports X 12.46.1-prod.01.
+- 修复部分帖子没有自动翻译，以及首页译文进入帖子详情后消失的问题。<br>
+  Fixed missing automatic translations on some posts and translations disappearing when opening a post from Home.
+- 为了方便那些一直找历史版本的人，附上对应版本 X 的 ARM64 分包。<br>
+  For anyone looking for older versions, I've included the matching ARM64 X split APKs.
 
 ## 功能 / Features
 
@@ -91,8 +91,8 @@ To sync the theme for the first time, open XTQ Settings and then return to X.
 
 ## 兼容性 / Compatibility
 
-- 本版主要适配 X 12.45.1-prod.01；其他版本的兼容记录请参阅对应历史 Release。<br>
-  This release targets X 12.45.1-prod.01; see the corresponding past releases for other-version compatibility records.
+- 本版主要适配 X 12.46.1-prod.01；其他版本的兼容记录请参阅对应历史 Release。<br>
+  This release targets X 12.46.1-prod.01; see the corresponding past releases for other-version compatibility records.
 
 每次 X 更新后，我都需要分析变化、构建候选并进行实机验证。<br>
 After each X update, I analyze changes, build candidates, and test on real devices.
